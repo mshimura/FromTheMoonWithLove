@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x690f6e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x6ab63b0" />
+  <item nodeId="node-0x690f6e0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+From the Moon with Love
+An Interactive Fiction by Matthew Shimura
+Release 1 / Serial number 130226 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Bathroom
+A Clean tiled restroom with 4 stalls and a large spanning mirror on the wall. It seems very peaceful here, but you smell a stong odor in the air of Chemicals. In the back of the room you see a utility closet that looks to be used by the Janitor
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">NO</temporary>
+    <children>
+      <child nodeId="node-0xad71be0" />
+      <child nodeId="node-0xd462ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd462ae0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cb7360" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cb7360">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+In the training room you see a giant spinning Centrifuge used to test the tolerance of Astronauts to acceleration for the conditions of space. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ab63b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ab63b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Space Suit Storage
+A cramped room with Space Suits hung on the wall Behind a metal grate.
+
+There look to be two enterances one to the North, and one to the .  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="42">YES</temporary>
+  </item>
+  <item nodeId="node-0xad71be0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Centrifuge
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x69c2510" />
+      <child nodeId="node-0xaddb150" />
+    </children>
+  </item>
+  <item nodeId="node-0xaddb150">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Space Suit Storage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x18ce7e0" />
+      <child nodeId="node-0xadd2390" />
+      <child nodeId="node-0x6a956b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6a956b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Centrifuge
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x6aaec00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6aaec00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bdf240" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bdf240">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Centrifuge
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xd46a010" />
+    </children>
+  </item>
+  <item nodeId="node-0xd46a010">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Space Suit Storage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xd457920" />
+    </children>
+  </item>
+  <item nodeId="node-0xd457920">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+mission control
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b690a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b690a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xd4414c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd4414c0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Flight deck
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf9640" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf9640">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Launch Pad
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xd43d420" />
+    </children>
+  </item>
+  <item nodeId="node-0xd43d420">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Flight deck
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+  </item>
+  <item nodeId="node-0xadd2390">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Mission Control
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x6af19d0" />
+      <child nodeId="node-0xd43d280" />
+    </children>
+  </item>
+  <item nodeId="node-0xd43d280">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Launch Pad
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x18dba80" />
+    </children>
+  </item>
+  <item nodeId="node-0x18dba80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+mission control
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+  </item>
+  <item nodeId="node-0x6af19d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x6a06220" />
+      <child nodeId="node-0x6acf650" />
+    </children>
+  </item>
+  <item nodeId="node-0x6acf650">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Flight deck
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x6aa54d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6aa54d0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Rocket
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+  </item>
+  <item nodeId="node-0x6a06220">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Space Suit Storage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0xd454ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd454ee0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+mission control
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x69fbc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x69fbc20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Launch Pad
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c5bde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c5bde0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+mission control
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x18ce7e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+mission control
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x69c2510">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c5a890" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c5a890">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Centrifuge
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x692e6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x692e6e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Space Suit Storage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x6a97d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6a97d90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+mission control
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ad7330" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ad7330">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+</Skein>
