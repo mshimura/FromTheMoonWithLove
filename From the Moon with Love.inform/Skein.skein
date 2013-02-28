@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x690f6e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x183df90" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x6ab63b0" />
-  <item nodeId="node-0x690f6e0">
+  <activeNode nodeId="node-0x183df90" />
+  <item nodeId="node-0x183df90">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -10,21 +10,49 @@
 
 From the Moon with Love
 An Interactive Fiction by Matthew Shimura
-Release 1 / Serial number 130226 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130228 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Bathroom
 A Clean tiled restroom with 4 stalls and a large spanning mirror on the wall. It seems very peaceful here, but you smell a stong odor in the air of Chemicals. In the back of the room you see a utility closet that looks to be used by the Janitor
 
+The Exit to the bathroom is to the East
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="15">NO</temporary>
+    <children>
+      <child nodeId="node-0x181d7a0" />
+      <child nodeId="node-0x183e2e0" />
+      <child nodeId="node-0xb87e900" />
+    </children>
+  </item>
+  <item nodeId="node-0xb87e900">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="43">NO</temporary>
+    <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0xad71be0" />
-      <child nodeId="node-0xd462ae0" />
+      <child nodeId="node-0xb895f40" />
     </children>
   </item>
-  <item nodeId="node-0xd462ae0">
+  <item nodeId="node-0xb895f40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+In the training room you see a giant spinning Centrifuge used to test the tolerance of Astronauts to acceleration for the conditions of space. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+
+The Bathroom is to the West, and the Suit Storage Room is to the South
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x183e2e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -33,10 +61,10 @@ A Clean tiled restroom with 4 stalls and a large spanning mirror on the wall. It
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
     <children>
-      <child nodeId="node-0x6cb7360" />
+      <child nodeId="node-0x183db70" />
     </children>
   </item>
-  <item nodeId="node-0x6cb7360">
+  <item nodeId="node-0x183db70">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -47,10 +75,10 @@ In the training room you see a giant spinning Centrifuge used to test the tolera
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
     <children>
-      <child nodeId="node-0x6ab63b0" />
+      <child nodeId="node-0x181d7f0" />
     </children>
   </item>
-  <item nodeId="node-0x6ab63b0">
+  <item nodeId="node-0x181d7f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Space Suit Storage
@@ -63,21 +91,24 @@ There look to be two enterances one to the North, and one to the .
     <changed>YES</changed>
     <temporary score="42">YES</temporary>
   </item>
-  <item nodeId="node-0xad71be0">
+  <item nodeId="node-0x181d7a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
-Centrifuge
+Training Room
+In the training room you see a giant spinning Centrifuge used to test the tolerance of Astronauts to acceleration for the conditions of space. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+
+The Bathroom is to the West, and the Suit Storage Room is to the South
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="40">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x69c2510" />
-      <child nodeId="node-0xaddb150" />
+      <child nodeId="node-0x181cd20" />
+      <child nodeId="node-0x181d750" />
     </children>
   </item>
-  <item nodeId="node-0xaddb150">
+  <item nodeId="node-0x181d750">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Space Suit Storage
@@ -87,12 +118,12 @@ Space Suit Storage
     <changed>NO</changed>
     <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0x18ce7e0" />
-      <child nodeId="node-0xadd2390" />
-      <child nodeId="node-0x6a956b0" />
+      <child nodeId="node-0x181cd90" />
+      <child nodeId="node-0x181d290" />
+      <child nodeId="node-0x181d700" />
     </children>
   </item>
-  <item nodeId="node-0x6a956b0">
+  <item nodeId="node-0x181d700">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Centrifuge
@@ -102,10 +133,10 @@ Centrifuge
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0x6aaec00" />
+      <child nodeId="node-0x181d630" />
     </children>
   </item>
-  <item nodeId="node-0x6aaec00">
+  <item nodeId="node-0x181d630">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bathroom
@@ -115,10 +146,10 @@ Bathroom
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0x1bdf240" />
+      <child nodeId="node-0x181d5e0" />
     </children>
   </item>
-  <item nodeId="node-0x1bdf240">
+  <item nodeId="node-0x181d5e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Centrifuge
@@ -128,10 +159,10 @@ Centrifuge
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xd46a010" />
+      <child nodeId="node-0x181d590" />
     </children>
   </item>
-  <item nodeId="node-0xd46a010">
+  <item nodeId="node-0x181d590">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Space Suit Storage
@@ -141,10 +172,10 @@ Space Suit Storage
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xd457920" />
+      <child nodeId="node-0x181d520" />
     </children>
   </item>
-  <item nodeId="node-0xd457920">
+  <item nodeId="node-0x181d520">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 mission control
@@ -154,10 +185,10 @@ mission control
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0x1b690a0" />
+      <child nodeId="node-0x181d4b0" />
     </children>
   </item>
-  <item nodeId="node-0x1b690a0">
+  <item nodeId="node-0x181d4b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
@@ -167,10 +198,10 @@ Launch Pad
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xd4414c0" />
+      <child nodeId="node-0x181d380" />
     </children>
   </item>
-  <item nodeId="node-0xd4414c0">
+  <item nodeId="node-0x181d380">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">
 Flight deck
@@ -180,10 +211,10 @@ Flight deck
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0x1bf9640" />
+      <child nodeId="node-0x181d330" />
     </children>
   </item>
-  <item nodeId="node-0x1bf9640">
+  <item nodeId="node-0x181d330">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 Launch Pad
@@ -193,10 +224,10 @@ Launch Pad
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xd43d420" />
+      <child nodeId="node-0x181d2e0" />
     </children>
   </item>
-  <item nodeId="node-0xd43d420">
+  <item nodeId="node-0x181d2e0">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">
 Flight deck
@@ -206,7 +237,7 @@ Flight deck
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
   </item>
-  <item nodeId="node-0xadd2390">
+  <item nodeId="node-0x181d290">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Mission Control
@@ -216,11 +247,11 @@ Mission Control
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0x6af19d0" />
-      <child nodeId="node-0xd43d280" />
+      <child nodeId="node-0x181d160" />
+      <child nodeId="node-0x181d240" />
     </children>
   </item>
-  <item nodeId="node-0xd43d280">
+  <item nodeId="node-0x181d240">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Launch Pad
@@ -230,10 +261,10 @@ Launch Pad
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x18dba80" />
+      <child nodeId="node-0x181d1d0" />
     </children>
   </item>
-  <item nodeId="node-0x18dba80">
+  <item nodeId="node-0x181d1d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 mission control
@@ -243,7 +274,7 @@ mission control
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
   </item>
-  <item nodeId="node-0x6af19d0">
+  <item nodeId="node-0x181d160">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
@@ -253,11 +284,11 @@ Launch Pad
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0x6a06220" />
-      <child nodeId="node-0x6acf650" />
+      <child nodeId="node-0x181d3d0" />
+      <child nodeId="node-0x181d0f0" />
     </children>
   </item>
-  <item nodeId="node-0x6acf650">
+  <item nodeId="node-0x181d0f0">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">
 Flight deck
@@ -267,10 +298,10 @@ Flight deck
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0x6aa54d0" />
+      <child nodeId="node-0x181d430" />
     </children>
   </item>
-  <item nodeId="node-0x6aa54d0">
+  <item nodeId="node-0x181d430">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Rocket
@@ -280,7 +311,7 @@ Rocket
     <changed>YES</changed>
     <temporary score="39">YES</temporary>
   </item>
-  <item nodeId="node-0x6a06220">
+  <item nodeId="node-0x181d3d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Space Suit Storage
@@ -290,10 +321,10 @@ Space Suit Storage
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0xd454ee0" />
+      <child nodeId="node-0x181cee0" />
     </children>
   </item>
-  <item nodeId="node-0xd454ee0">
+  <item nodeId="node-0x181cee0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 mission control
@@ -303,10 +334,10 @@ mission control
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x69fbc20" />
+      <child nodeId="node-0x181ce70" />
     </children>
   </item>
-  <item nodeId="node-0x69fbc20">
+  <item nodeId="node-0x181ce70">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Launch Pad
@@ -316,10 +347,10 @@ Launch Pad
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5bde0" />
+      <child nodeId="node-0x181ce00" />
     </children>
   </item>
-  <item nodeId="node-0x6c5bde0">
+  <item nodeId="node-0x181ce00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 mission control
@@ -329,7 +360,7 @@ mission control
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
   </item>
-  <item nodeId="node-0x18ce7e0">
+  <item nodeId="node-0x181cd90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 mission control
@@ -339,46 +370,182 @@ mission control
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x69c2510">
+  <item nodeId="node-0x181cd20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bathroom
+A Clean tiled restroom with 4 stalls and a large spanning mirror on the wall. It seems very peaceful here, but you smell a stong odor in the air of Chemicals. In the back of the room you see a utility closet that looks to be used by the Janitor
+
+The Exit to the bathroom is to the East
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5a890" />
+      <child nodeId="node-0x181ccb0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5a890">
+  <item nodeId="node-0x181ccb0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
-Centrifuge
+Training Room
+In the training room you see a giant spinning Centrifuge used to test the tolerance of Astronauts to acceleration for the conditions of space. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+
+The Bathroom is to the West, and the Suit Storage Room is to the South
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x692e6e0" />
+      <child nodeId="node-0x181cc40" />
     </children>
   </item>
-  <item nodeId="node-0x692e6e0">
+  <item nodeId="node-0x181cc40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Space Suit Storage
+A small room filled with Space Suits hung on the wall behind a metal cage.
+
+There look to be two enterances one to the North, and one to the West.  
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x6a97d90" />
+      <child nodeId="node-0x181cbd0" />
+      <child nodeId="node-0xb8e3030" />
     </children>
   </item>
-  <item nodeId="node-0x6a97d90">
+  <item nodeId="node-0xb8e3030">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by a Aeronatical Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of Rocket.
+
+At the front of the room looks to be Greg the Head Scientist
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6eae00" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6eae00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Space Suit Storage
+A small room filled with Space Suits hung on the wall behind a metal cage.
+
+There look to be two enterances one to the North, and one to the West.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8a6c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8a6c90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Training Room
+In the training room you see a giant spinning Centrifuge used to test the tolerance of Astronauts to acceleration for the conditions of space. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+
+The Bathroom is to the West, and the Suit Storage Room is to the South
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ed9cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ed9cd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Space Suit Storage
+A small room filled with Space Suits hung on the wall behind a metal cage.
+
+There look to be two enterances one to the North, and one to the West.  
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e83b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e83b30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by a Aeronatical Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of Rocket.
+
+At the front of the room looks to be Greg the Head Scientist
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xb874c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xb874c20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a refuelling station that looks like it could be used to fill up the rocket. Connected to the rocket is a metal tower with a Elevator which looks like it could be used to get to the Flight Deck.
+
+Connected by the ground you see a Fuel Tube which looks like it runs the length of the metal tower to someplace at the top where it disapears in a jumble of wires and tubes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x18ab0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18ab0e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Elevator
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8ac180" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8ac180">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Flight Deck
+ A platform at the top of the metal tower. This platform is hundreds of feet in the air, and below you can seen the space base. From up here everything looks so small and the people below look like ants.
+
+Up here on the flight deck you can see a control panel which looks like it controls all the tubes and wires that go to the Rocket as well as the Docking Mechanism.
+
+This Flight Deck also has a elevator to which looks like it can bring you back down to the launch pad. The Rocket is West of the flight deck.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x181cbd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 mission control
@@ -388,10 +555,10 @@ mission control
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x6ad7330" />
+      <child nodeId="node-0x181cb60" />
     </children>
   </item>
-  <item nodeId="node-0x6ad7330">
+  <item nodeId="node-0x181cb60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
