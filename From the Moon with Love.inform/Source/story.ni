@@ -24,19 +24,19 @@ The exit to the Bathroom is to the East."
 
 The supplies are scenery in the Bathroom. Understand "cleaning supplies" as supplies. The description is "Things used for cleaning that are in the utility closet."
 
-The wallet is a thing in the Bathroom. The description is "A wallet with 3,047 rubles in it. The wallet belongs to a young astronaut named, Victor Sasha Reznov."
+The wallet is a thing in the Bathroom. It is undescribed. The description is "A wallet with 3,047 rubles in it. The wallet belongs to a young astronaut named, Victor Sasha Reznov."
 
 The Mirror is scenery in the Bathroom. The description is "You look in the mirror and see yourself. You are a strapping lad of 20 something years. You have a long scar running down the side of you face from your right eyebrow to your chin. You also notice that you have a little hair stubble growing from your shaved head. 
 
 In the mirror, you also see a sickle and a hammar tattooed on your wrist."
 
-The Stall is an enterable scenery supporter in the Bathroom. Understand "stalls" as Stall. The description is "A tall white stall which holds a toilet and a roll of double ply toilet paper. Even though it is very clean, on the stall's door you see some graffiti.
-
-On the floor in the stall you just came out of you see a wallet."
+The Stall is an enterable scenery supporter in the Bathroom. Understand "stalls" as Stall. The description is "A tall white stall which holds a toilet and a roll of double ply toilet paper. Even though it is very clean, on the stall's door you see some graffiti."
 
 The Graffiti is scenery in the Bathroom. The description is "Along the wall someone has written, 'За Родину, все градом Сталина!' in thick black sharpie."
 
-The Tiles are scenery in the Bathroom. Understand "floor" as the tiles. The description is "Shiny blue mosaic tiles that line the floor in tiny rows. They are slippery because they look like they have been mopped recently."
+The Tiles are scenery supporter in the Bathroom. Understand "floor" as the tiles. The description is "Shiny blue mosaic tiles that line the floor in tiny rows. They are slippery because they look like they have been mopped recently.
+
+On the floor you see a wallet."
 
 After smelling chemicals, say "You smell a strong stench of cleaning chemicals used to clean up the barf of the astronauts after they get of the centrifuge."
 
@@ -48,23 +48,33 @@ The wrench is a thing. It is in the closet. The description is "A tool used for 
 
 The Janitor is scenery in the Bathroom. The description is "The Janitor is on break and not here right now."
 
-The Training Room is a room. It is north of the Space Suit Storage. The description is "In the training room you see a giant spinning Centrifuge in the middle of the room. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+The Training Room is a room. It is north of the partition. The description is "In the training room you see a giant spinning Centrifuge in the middle of the room. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
 
 The Bathroom is to the West, and the Suit Storage Room is to the South."
 
 The Centrifuge is a enterable scenery supporter in the Training Room. The description is "A giant spinning thing used to test the tolerance of Astronauts to acceleration for the conditions of space. Many fail and few suceed this challenges, and it is nesecarry for you to be approved to the next stage of the mission."
 
-The Metal Partition is a door. It is south of the training room. The metal partition is lockable and locked. The description of the Metal partition is "a door."
+The Partition is a door. It is south of the training room and north of the space suit storage. The partition is lockable and unlocked. The description of the partition is "Only astronauts that have finished their training can go past this door."
 
-The Space Suit Storage is a room. It is east of the Mission Control. The description is "A small room filled with Space Suits hung on the wall behind a Cage. 
+After entering centrifuge, say "You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
+
+Finally, the spinning stops and you get out of the centrifuge."
+
+After entering centrifuge, move player to training room.
+
+[After exiting centrifuge, unlock the partition.]
+
+The Space Suit Storage is a room. It is west of the Mission Control. The description is "A small room filled with Space Suits hung on the wall behind a Cage. 
 
 There look to be two exits one to the North, and one to the West."
 
 The Russian is scenery in the Mission Control. The description is "The language of the country with the capital of Moscow."
 
-The Cage is an openable container in the Space Suit Storage. It is unlocked and lockable. The description is "A chainlink cage which inside of you see space suits."
+The Cage is an openable container in the Space Suit Storage. It is locked and lockable. The description is "A chainlink cage which inside of you see space suits and a space helmet."
 
 The Space Suits are a thing in the Cage. The Space Suits are wearable. Understand "space suit" as space suits. The description is "A garment worn to keep a human alive in the harsh enviroment of space from vacuum and extreme temperatures. When wearing the suit there is limited mobility."
+
+The Space Helmet is a thing in the Cage. The Space Helmet is wearable. Understand "helmet" as space helmet. The description is "A Helmet that lets you see out in space while still being able to breathe oxygen. The helmet also has a headset in it which allows you to hear what mission control has to tell you."
 
 The Mission Control is a room. It is north of the Launch Pad. The description is "A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
 
@@ -113,7 +123,7 @@ On the station you spot a space where a tube could be connected, and a lever to 
 
 The Space Shuttle is scenery in the Launch Pad. The description is "The space shuttle is a vehicle that holds the different crew members and detaches from the rocket after reaching the right altitude. It does not have enough propulsion to get into space by itself, therefore needs the rocket. It is also important in getting back to earth."
 
-The Fuel Tube is a thing in the Launch Pad. It is fixed in place. The description is "A thick metal fuel tube which looks like it runs the length of the metal tower and then into the rocket. 
+The Fuel Tube is a thing in the Launch Pad. It is undescribed. It is fixed in place. The description is "A thick metal fuel tube which looks like it runs the length of the metal tower and then into the rocket. 
 
 It looks to be disconnected." 
 
@@ -128,21 +138,42 @@ A platform at the top of the metal tower. This platform is hundreds of feet in t
 
 Across a large gap you see the rocket, but you cannont get to it yet.
 
-Up here at the Loading Zone you can see a Control Pane which looks like it controls all the tubes and wires that go to the Rocket as well as the docking mechanism.
+Up here at the Loading Zone you can see a Control Pane which looks like it controls all the rocket's fuel tubes as well as the launch mecanism.
 
 To get back to the Launch Pad use the stairs to go back down. "
 
-The Control Pane is a scenery supporter in the loading zone. The description is ""
+The Launch mecanism is scenery in the loading zone. The description is "The action that starts the launch of the rocket"
 
-The Docking Mechanism is scenery in the loading zone. The description is ""
+The Control Pane is a thing in the loading zone. It is fixed in place. The description is "On the control pane, you see the Docking Lever that controls the launch of the ship."
+
+The Docking Lever is part of the control pane. The description is "A large lever that launches the rocket once you have fueled it up and have your space suit."
+
+Pulling the docking lever is an action out of world.
+
+Carry out pulling the docking lever:
+	Say "Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
+	
+	[Bold type] 5[roman type]
+	[Bold type] 4[roman type]
+	[Bold type] 3[roman type]
+	[Bold type] 2[roman type]
+	[Bold type] 1[roman type]
+	[Bold type] We have liftoff.[roman type]
+	
+	You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a a voice over the loudspeaker. '[Bold type] Detaching Rockets [roman type]' 
+	
+	The shuttle detaches from the rocket, and you have finally reached space";
+	Move player to Flight deck;
 
 The Air Lock is a door. It is east of the loading zone. The Air Lock is lockable and locked. The description of the Air Lock is "A solid metal door designed to keep the emptyness of space from reaching the inside of the space shuttle. "
 
-The Airlock is a room. It is east of OuterSpace. The description is ""
+The Airlock is a room. It is east of OuterSpace. The description is "TEST"
 
-The OuterSpace is a room. It is west of the Airlock. The description is ""
+The OuterSpace is a room. It is west of the Airlock. The description is "You float in space after leaving the shuttle and stare at the emptiness of space. You cannont hear anything except the crackle of your headset telling you to complete you mission. 
 
-The Moon is a room. It is below the OuterSpace. The description is ""
+You remember a quote you once heard from a movie. [bold type] 'In space, no one can hear you scream. [roman type]'"
+
+The Moon is a room. It is below the OuterSpace. The description is "A large expanse of land in space with giagantic craters strew across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag."
 
 [After Entering Airlock, say "You unlock the solid metal Airlock. With a hiss of hydraulics oxygen fills the room and you step inside the Space Shuttle."]
 
@@ -163,9 +194,9 @@ The Shovel is a thing. It is in the Cabinets. The description is "A spade used t
 
 The Explosives are a thing. It is in the Cabinets. The description is "Explosives used for breaking up large areas of rock when other tools don't work."
 
-The Flag is a thing. It is in the Cabinet. The description is ""
+The Flag is a thing. It is in the Cabinet. The description is "A Red Flag with a yellow sickle and hammer. It is connected to a aluminum flagpole which looks like it can be deeply planted in the ground."
 
-The Vodka is a thing. It is edible. It is in the Cabinet. The description is ""
+The Vodka is a thing. It is edible. It is in the Cabinet. The description is "A strong alcoholic bevarage that has a proof of 80"
 	
 Instead of drinking the vodka:
 	Try eating the Vodka
@@ -174,7 +205,6 @@ After taking the flag, say "As you look at the flag you realize you are not an A
 
 The Beds is a enterable scenery supporter in the crew compartment. Understand "bed" as Beds. The description is "A bed mounted against the wall which looks sleepable but not comfy. It looks like whoever built the space shuttle spared no expense it making it livable."
 
-
 [Other rooms]
 The Lower Deck is a Room. It is below the Crew Compartment. The description is "The Lower deck of the crew compartment holds the Engines of the ship and its Thrusters. You can hear the humming of machines and the occastional beep of a notice going off. 
 
@@ -182,17 +212,19 @@ Without the lower deck working properly the space shuttle could not move around 
 
 In the lower deck you spot a window."
 
-The Window is scenery in the lower deck. The description is ""
+The Window is scenery in the lower deck. The description is "You look out of window and see the earth circling beneath you. On Earth, it is night, but you can see beacons of light from all of the major cities of the world."
+
+Earth is scenery in the lower deck. The description is "Your home planet from which you launched your rocket from just hours ago"
 
 The Flight Deck is a Room. It is above the Crew Compartment. The description is "At the head of the Space Shuttle is the flight deck where the entirety of the ship is controlled. You see three seats, one for the captain, one for the engineer, and one for you.
 
 In front of the seats is a thick Windsceen the protects you from outer space nd allows you to see out the front so you can see out of the ship, and the Controls to the space shuttles."
 
-The Windscreen is scenery in the flight deck. The description is ""
+The Windscreen is scenery in the flight deck. The description is "TEST"
 
-The Controls are scenery in the flight deck. The description is ""
+The Controls are a thing in the flight deck. It is undescribed. It is fixed in place. The description is "The controls for landing on the moon and manipulating the space shuttle"
 
-The Seats are enterable scenery supporter in the flight deck. The description is ""
+The Seats are enterable scenery supporter in the flight deck. The description is "You see three seats on the Flight deck. They look to be very comfy because of all the padded cushion."
 
 
 
