@@ -9,6 +9,8 @@ To say exit list:
 		let place be the room way from the location; 
 		if place is a room, say " [way]".
 		
+When play begins:change the right hand status line to "[score]".
+		
 Rule for deciding whether all includes something: it does not.
 
 Rule for printing a parser error when the latest parser error is the nothing to do error:
@@ -48,25 +50,27 @@ The wrench is a thing. It is in the closet. The description is "A tool used for 
 
 The Janitor is scenery in the Bathroom. The description is "The Janitor is on break and not here right now."
 
-The Training Room is a room. It is north of the partition. The description is "In the training room you see a giant spinning Centrifuge in the middle of the room. Mastering the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+The Training Room is a room. It is north of the partition. The description is "In the training room you see a giant spinning Centrifuge in the middle of the room. Getting in and trying the Centrifuge is a required of an astronaut that might take a few times to do correctly.
 
 The Bathroom is to the West, and the Suit Storage Room is to the South."
 
+[--------]
+
 The Centrifuge is a enterable scenery supporter in the Training Room. The description is "A giant spinning thing used to test the tolerance of Astronauts to acceleration for the conditions of space. Many fail and few suceed this challenges, and it is nesecarry for you to be approved to the next stage of the mission."
 
-The Partition is a door. It is south of the training room and north of the space suit storage. The partition is lockable and unlocked. The description of the partition is "Only astronauts that have finished their training can go past this door."
+The Partition is a door. It is south of the training room and north of the Space Suit Storage. The partition is locked. The description of the partition is "Only astronauts that have finished their training can go past this door."
 
-After entering centrifuge, say "You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
+Instead of entering centrifuge:
+	 say "You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
 
-Finally, the spinning stops and you get out of the centrifuge."
 
-After entering centrifuge, move player to training room.
+	Finally, the spinning stops and you get out of the centrifuge. You hear the click of the Partition unlocking"; move
+	player to training room; 
+	now the partition is unlocked.
 
-[After exiting centrifuge, unlock the partition.]
+The Space Suit Storage is a room. It is west of the Mission Control. The description is "A small room filled with Space Suits and Helmets hung on the wall behind a Cage. 
 
-The Space Suit Storage is a room. It is west of the Mission Control. The description is "A small room filled with Space Suits hung on the wall behind a Cage. 
-
-There look to be two exits one to the North, and one to the West."
+There look to be two exits one to the North, and one to the East."
 
 The Russian is scenery in the Mission Control. The description is "The language of the country with the capital of Moscow."
 
@@ -146,34 +150,33 @@ The Launch mecanism is scenery in the loading zone. The description is "The acti
 
 The Control Pane is a thing in the loading zone. It is fixed in place. The description is "On the control pane, you see the Docking Lever that controls the launch of the ship."
 
-The Docking Lever is part of the control pane. The description is "A large lever that launches the rocket once you have fueled it up and have your space suit."
+The Docking Lever is part of the control pane. The description is "A large lever that launches the rocket once you have fueled it up and have your space suit. To launch the rocket you need the Launch Command from Greg"
 
-Pulling the docking lever is an action out of world.
+The launch command is a thing in mission control. The description is "The code used at the Control Pane to launch the Rocket." 
 
-Carry out pulling the docking lever:
-	Say "Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
+[Carry out] 
+Instead of pulling the docking lever:
+	If player has launch command, say "
 	
-	[Bold type] 5[roman type]
-	[Bold type] 4[roman type]
-	[Bold type] 3[roman type]
-	[Bold type] 2[roman type]
-	[Bold type] 1[roman type]
-	[Bold type] We have liftoff.[roman type]
+	Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
 	
-	You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a a voice over the loudspeaker. '[Bold type] Detaching Rockets [roman type]' 
+	[Bold type] 5.[roman type]
+	[Bold type] 4.[roman type]
+	[Bold type] 3.[roman type]
+	[Bold type] 2.[roman type]
+	[Bold type] 1.[roman type]
+	[Bold type] We have liftoff...[roman type]
 	
-	The shuttle detaches from the rocket, and you have finally reached space";
-	Move player to Flight deck;
+	You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a voice over the loudspeaker. '[Bold type]Detaching Rockets[roman type]' 
+	
+	The shuttle detaches from the rocket, and you have finally reached space
+	
+	";
+	now player is in Flight Deck;
+	
+	[else, say "You can't launch the rocket without the launch command!"]
 
 The Air Lock is a door. It is east of the loading zone. The Air Lock is lockable and locked. The description of the Air Lock is "A solid metal door designed to keep the emptyness of space from reaching the inside of the space shuttle. "
-
-The Airlock is a room. It is east of OuterSpace. The description is "TEST"
-
-The OuterSpace is a room. It is west of the Airlock. The description is "You float in space after leaving the shuttle and stare at the emptiness of space. You cannont hear anything except the crackle of your headset telling you to complete you mission. 
-
-You remember a quote you once heard from a movie. [bold type] 'In space, no one can hear you scream. [roman type]'"
-
-The Moon is a room. It is below the OuterSpace. The description is "A large expanse of land in space with giagantic craters strew across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag."
 
 [After Entering Airlock, say "You unlock the solid metal Airlock. With a hiss of hydraulics oxygen fills the room and you step inside the Space Shuttle."]
 
@@ -186,13 +189,9 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
 
 The Work Bench is a scenery supporter in the crew compartment. The description is "A wooden counter retrofitted to remind you of home. The surface of the wood is marred with scratches likely from tools being used. 
 
-This work bench looks like it can be used to assemble things once the required parts and tools are aquired"
+This work bench looks like it can be used to assemble things once the required parts and tools are aquired."
 
 The Cabinets is a openable container in the crew compartment. Understand "cabinet" as cabinets. [It is locked.] The description is "A thick metal cabinet that solidly rings when you tap on it. It looks like it could hold some things needed for you mission on the Moon."
-
-The Shovel is a thing. It is in the Cabinets. The description is "A spade used to dig up moon rocks."
-
-The Explosives are a thing. It is in the Cabinets. The description is "Explosives used for breaking up large areas of rock when other tools don't work."
 
 The Flag is a thing. It is in the Cabinet. The description is "A Red Flag with a yellow sickle and hammer. It is connected to a aluminum flagpole which looks like it can be deeply planted in the ground."
 
@@ -218,14 +217,59 @@ Earth is scenery in the lower deck. The description is "Your home planet from wh
 
 The Flight Deck is a Room. It is above the Crew Compartment. The description is "At the head of the Space Shuttle is the flight deck where the entirety of the ship is controlled. You see three seats, one for the captain, one for the engineer, and one for you.
 
-In front of the seats is a thick Windsceen the protects you from outer space nd allows you to see out the front so you can see out of the ship, and the Controls to the space shuttles."
+In front of the seats is a thick Windsceen the protects you from outer space and allows you to see out the front so you can see out of the ship, and the Controls to the space shuttles."
 
-The Windscreen is scenery in the flight deck. The description is "TEST"
+The Windscreen is scenery in the flight deck. The description is "You look out of the windscreen at the vast expanse of space. From here you can see the Moon Landscape."
+
+The moon is scenery in the flight deck. The description is "Once a part of the Earth, its small gravitational pull now affects the change of the tides."
 
 The Controls are a thing in the flight deck. It is undescribed. It is fixed in place. The description is "The controls for landing on the moon and manipulating the space shuttle"
 
 The Seats are enterable scenery supporter in the flight deck. The description is "You see three seats on the Flight deck. They look to be very comfy because of all the padded cushion."
 
+[---------------------]
 
+The Airlock is a room. It is east of OuterSpace. The description is "A room that seperate the outside from the inner space ship."
 
+The OuterSpace is a room. It is west of the Airlock. The description is "You float in space after leaving the shuttle and stare at the emptiness of space. You cannont hear anything except the crackle of your headset telling you to complete you mission. 
 
+You remember a quote you once heard from a movie. [bold type] 'In space, no one can hear you scream. [roman type]'"
+
+The Moon Surface is a room. It is below the OuterSpace. The description is "A large expanse of land in space with giagantic craters strew across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag.
+
+You also see a hole that looks partially filled up. If you had a shovel you might dig it up."
+
+The Shovel is a thing. It is in the Cabinets. The description is "A spade used to dig up moon rocks."
+
+Understand "dig" as opening.
+
+Hole is a closed openable container
+
+Instead of opening the hole:
+	if player has shovel:
+		say "You dig a hole in the moon, which looks like your Flag can go in it";
+		change hole to open;
+	else:
+		say "You can't dig out all the moon rocks with just your hands.".
+
+Understand the command "put [thing] in [something]" as something new.
+Putting it in is an action applying to two things.
+Understand "put [thing] in [something]" as putting it in
+
+[Putting is an action applying to two things. Understand "put [something] in [something]" as putting it in.]
+
+After putting flag in the hole:
+	say "you put the flag of the motherland in the hole and claim the Moon [bold type]FOR RUSSIA!!! [roman type]
+			
+	Now that your mission is complete you radio back to mission control. 'Thank you for your service to the Country. You will be remembered for your achievement. Thank you for your sacrafise.
+			
+	Remembered? I'm not dead yet.
+		
+	Suddenly, you have a hard time breating, your oxygen supply seems to be depleating. BOOM! the space shuttle explodes behind you.
+		
+	In your last moments, you finally remember the mission details. [bold type] To go to the moon and plant russia's flag. After completing  your mission, your life will then be terminated as your use has ended.
+	
+	
+	";
+	End the game in victory.
+			
