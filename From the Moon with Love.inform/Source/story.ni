@@ -18,15 +18,19 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 
 The describe what's on scenery supporters in room descriptions rule is not listed in any rulebook.
 
+When play begins, say "You wake up groggily from a hangover, and find yourself sitting on a toilet. All you can remember is that you are in the command center for a space program on Earth. Not remembering who you are, what your purpose is, or why you are here, confuses you greatly. You must find out… 
+
+"
+
 [Rooms]
 
-The Bathroom is a room. It is west of the Training Room. The description is "A spotless tiled restroom with many stalls and a large spanning mirror along the wall. It seems very peaceful here, but you smell a stong odor in the air of cleaning chemicals. In the back of the room you see a utility closet that looks to be used by the Janitor.
+The Bathroom is a room. It is west of the Training Room. The description is "A spotless tiled restroom with many stalls and a large spanning mirror along the wall. It seems very peaceful here. In the back of the room you see a utility closet that looks to be used by the Janitor.
 
 The exit to the Bathroom is to the East."
 
-The supplies are scenery in the Bathroom. Understand "cleaning supplies" as supplies. The description is "Things used for cleaning that are in the utility closet."
-
 The wallet is a thing in the Bathroom. It is undescribed. The description is "A wallet with 3,047 rubles in it. The wallet belongs to a young astronaut named, Victor Sasha Reznov."
+
+After taking wallet, say "Is this your wallet? Maybe you are an astronaut?"
 
 The Mirror is scenery in the Bathroom. The description is "You look in the mirror and see yourself. You are a strapping lad of 20 something years. You have a long scar running down the side of you face from your right eyebrow to your chin. You also notice that you have a little hair stubble growing from your shaved head. 
 
@@ -40,45 +44,48 @@ The Tiles are scenery supporter in the Bathroom. Understand "floor" as the tiles
 
 On the floor you see a wallet."
 
-After smelling chemicals, say "You smell a strong stench of cleaning chemicals used to clean up the barf of the astronauts after they get of the centrifuge."
+The utility closet is a closed openable container in the Bathroom. Understand "closet" as utility closet. It is undescribed. It is unlocked and lockable. The description is "A closets used for storing cleaning chemicals and a wrench to keep the bathroom in working order."
 
-The chemicals is scenery in the Bathroom. Understand "odor" as chemicals.
+The chemicals are a thing. It is in the closet. The description is "You smell a strong stench of cleaning chemicals used to clean up the barf of the astronauts after they get of the centrifuge.
 
-The utility closet is a openable container in the Bathroom. Understand "closet" as utility closet. It is undescribed. It is locked. The description is "A closets used for storing cleaning supplies and tools to keep the bathroom in working order."
+These chemicals look like they could be used to combine with something later on."
 
-The wrench is a thing. It is in the closet. The description is "A tool used for tightening and loosinging bolts."
+The wrench is a thing. It is in the closet. The description is "A tool used for building things."
 
 The Janitor is scenery in the Bathroom. The description is "The Janitor is on break and not here right now."
 
-The Training Room is a room. It is north of the partition. The description is "In the training room you see a giant spinning Centrifuge in the middle of the room. Getting in and trying the Centrifuge is a required of an astronaut that might take a few times to do correctly.
+The Training Room is a room. It is north of the partition. The description is "In the training room you see a giant spinning Centrifuge in the middle of the room. 
 
-The Bathroom is to the West, and the Suit Storage Room is to the South."
+Getting in the Centrifuge is a tequired of an astronaut, and might take a few times to do correctly.
+
+The bathroom is to the West, and the storage room is to the South."
 
 [--------]
 
-The Centrifuge is a enterable scenery supporter in the Training Room. The description is "A giant spinning thing used to test the tolerance of Astronauts to acceleration for the conditions of space. Many fail and few suceed this challenges, and it is nesecarry for you to be approved to the next stage of the mission."
+The Centrifuge is a enterable scenery supporter in the Training Room. The description is "A giant spinning machine used to test the tolerance of Astronauts to acceleration for the conditions of space. Many fail and few suceed this challenges, and it is nesecarry for you to be approved to the next stage of the mission."
 
-The Partition is a door. It is south of the training room and north of the Space Suit Storage. The partition is locked. The description of the partition is "Only astronauts that have finished their training can go past this door."
+The Partition is a door. It is south of the training room and north of the Storage Room. The partition is locked. The description of the partition is "Only astronauts that have finished their training can go past this door that leads to the Storage Room."
 
 Instead of entering centrifuge:
 	 say "You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
 
 
-	Finally, the spinning stops and you get out of the centrifuge. You hear the click of the Partition unlocking"; move
-	player to training room; 
-	now the partition is unlocked.
+	Finally, the spinning stops, and you get out of the centrifuge. 
+	[Bold type] You hear the click of the Partition unlocking.
+	
+	"; now the partition is unlocked.
 
-The Space Suit Storage is a room. It is west of the Mission Control. The description is "A small room filled with Space Suits and Helmets hung on the wall behind a Cage. 
+The Storage Room is a room. It is west of the Mission Control. The description is "A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage. 
 
 There look to be two exits one to the North, and one to the East."
 
 The Russian is scenery in the Mission Control. The description is "The language of the country with the capital of Moscow."
 
-The Cage is an openable container in the Space Suit Storage. It is locked and lockable. The description is "A chainlink cage which inside of you see space suits and a space helmet."
+The Cage is an openable container in the Storage Room. It is locked and lockable. The description is "A chainlink cage which inside of you see space suits and a space helmet."
 
-The Space Suits are a thing in the Cage. The Space Suits are wearable. Understand "space suit" as space suits. The description is "A garment worn to keep a human alive in the harsh enviroment of space from vacuum and extreme temperatures. When wearing the suit there is limited mobility."
+The Space Suit is a thing in Cage. The Space Suit are wearable. Understand "suit" as space suit. The description is "A garment worn to keep a human alive in the harsh enviroment of space from vacuum and extreme temperatures. When wearing the suit there is limited mobility."
 
-The Space Helmet is a thing in the Cage. The Space Helmet is wearable. Understand "helmet" as space helmet. The description is "A Helmet that lets you see out in space while still being able to breathe oxygen. The helmet also has a headset in it which allows you to hear what mission control has to tell you."
+The Space Helmet is a thing in Cage. The Space Helmet is wearable. Understand "helmet" as space helmet. The description is "A Helmet that lets you see out in space while still being able to breathe oxygen. The helmet also has a headset in it which allows you to hear what mission control has to tell you."
 
 The Mission Control is a room. It is north of the Launch Pad. The description is "A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
 
@@ -86,7 +93,18 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
 
 The writing is scenery in Mission Control. The description is "A news story that reports a meteor has crashed into our country, causing at least 1000 injuries."
 
-Greg is a man in the Mission Control. He is undescribed. The description is "The Head Scientist of the Space Program. He is a short man with cropped brown hair, and thick spectacles. Greg looks very intelligent and double majored in aeronautical engineerings and Rocket science in school"
+[NPC/Talking]
+
+Talking to is an action applying to one visible thing. Understand "talk to [someone]" or "converse with [someone]" as talking to.
+
+Greg is a man in the Mission Control. He is undescribed. The description is "Greg is the Head Scientist of the Space Program. He is a short man with cropped brown hair, and thick spectacles. Greg looks very intelligent and double majored in aeronautical engineerings and rocket science in school."
+
+Instead of talking to Greg for the first time:
+	say "'Hi there, I'm Greg the Head Scientist. You must be the new astronaut. I'm very busy right now, but I must tell you what you need to do for your mission to the moon. First you must aquire you space suit.' [bold type] Greg opens his hand, and in it is the master key."
+	
+The Master Key is a thing in mission control. It is undescribed. It unlocks the cage. The description is "A Skeleton key that unlocks all basic doors."
+
+[-----------]
 
 The Moniters are scenery in Mission Control. The description is "State of the art computers used by the scientists and engineers. They hold all the bluepints and mission details of your space trip."
 
@@ -100,13 +118,11 @@ The Scientist is a man in Mission Control. He is undescribed. The description is
 
 The Engineer is a man. He is in Mission Control. He is undescribed. The description is "You see an engineer putting parts together to form usefull items used to repair a spaceship in case of an emergency."
 
-Talking is an action applying to one topic.
-
-[Instead of talking to Engineer:
-	say "The Engineers and Scientists are very busy with some calculations and should not be disturbed."
+Instead of talking to Engineer:
+	say "The Engineer is very busy building something and should not be disturbed."
 
 Instead of talking to the Scientist:
-	say " The Engineers and Scientists are very busy with some calculations and should not be disturbed."]
+	say " The Scientist is very busy with some calculations and should not be disturbed."
 
 [Lauch Pad]
 
@@ -152,7 +168,7 @@ The Control Pane is a thing in the loading zone. It is fixed in place. The descr
 
 The Docking Lever is part of the control pane. The description is "A large lever that launches the rocket once you have fueled it up and have your space suit. To launch the rocket you need the Launch Command from Greg"
 
-The launch command is a thing in mission control. The description is "The code used at the Control Pane to launch the Rocket." 
+The launch command is a thing in mission control. It is undescribed. The description is "The code used at the Control Pane to launch the Rocket." 
 
 [Carry out] 
 Instead of pulling the docking lever:
@@ -160,12 +176,14 @@ Instead of pulling the docking lever:
 	
 	Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
 	
+	
 	[Bold type] 5.[roman type]
 	[Bold type] 4.[roman type]
 	[Bold type] 3.[roman type]
 	[Bold type] 2.[roman type]
 	[Bold type] 1.[roman type]
-	[Bold type] We have liftoff...[roman type]
+	[Bold type] We have liftoff…[roman type]
+	
 	
 	You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a voice over the loudspeaker. '[Bold type]Detaching Rockets[roman type]' 
 	
@@ -182,7 +200,7 @@ The Air Lock is a door. It is east of the loading zone. The Air Lock is lockable
 
 [Space Shuttle]
 
-The Crew Compartment is a Room. It is east of the Airlock. The description is "You step inside the Space Shuttle to the Crew Compartment the place where spend most of your time living and working on your voyage. You can see your way through the metal room with the fluroscent lights illuminating your way. You now stand on one of the walls of the space shuttle, as it is now pointed upwards towards the atomsphere, and will change orientation when reaching the correct altitude.
+The Crew Compartment is a Room. It is east of the Airlock. The description is "You step inside the Space Shuttle to the Crew Compartment the place where spend most of your time living and working on your voyage. You can see your way through the metal room with the fluroscent lights illuminating your way. You now stand on one of the walls of the space shuttle, as there is no gravity.
 
 In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabinets. Below you in the Space Shuttle is the Lower Deck, and Above you is the Flight Deck. 
 "
@@ -191,7 +209,9 @@ The Work Bench is a scenery supporter in the crew compartment. The description i
 
 This work bench looks like it can be used to assemble things once the required parts and tools are aquired."
 
-The Cabinets is a openable container in the crew compartment. Understand "cabinet" as cabinets. [It is locked.] The description is "A thick metal cabinet that solidly rings when you tap on it. It looks like it could hold some things needed for you mission on the Moon."
+The Cabinets are a closed openable container in the crew compartment. It is undescribed. Understand "cabinet" as cabinets. [It is locked.] The description is "A thick metal cabinet that solidly rings when you tap on it. It looks like it could hold some things needed for you mission on the Moon."
+
+After opening cabinets, say "In the cabinet, you see a flag, and vodka."
 
 The Flag is a thing. It is in the Cabinet. The description is "A Red Flag with a yellow sickle and hammer. It is connected to a aluminum flagpole which looks like it can be deeply planted in the ground."
 
@@ -199,8 +219,10 @@ The Vodka is a thing. It is edible. It is in the Cabinet. The description is "A 
 	
 Instead of drinking the vodka:
 	Try eating the Vodka
+	
+After eating vodka, say "Your head feels woozy as you take a swig from the bottle. The high alcohol content might be useful for something later on you say to yourself, and save the rest of the bottle."
 
-After taking the flag, say "As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember the details of your mission. Go to the moon, and claim it for the Motherland."
+After taking the flag, say "As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember the details of your mission. Go to the moon, claim it for the Motherland, and destroy all traces of the Americans.."
 
 The Beds is a enterable scenery supporter in the crew compartment. Understand "bed" as Beds. The description is "A bed mounted against the wall which looks sleepable but not comfy. It looks like whoever built the space shuttle spared no expense it making it livable."
 
@@ -229,21 +251,32 @@ The Seats are enterable scenery supporter in the flight deck. The description is
 
 [---------------------]
 
-The Airlock is a room. It is east of OuterSpace. The description is "A room that seperate the outside from the inner space ship."
+The Airlock is a room. It is east of OuterSpace. The description is "A room that seperates space from the inner space ship.
 
-The OuterSpace is a room. It is west of the Airlock. The description is "You float in space after leaving the shuttle and stare at the emptiness of space. You cannont hear anything except the crackle of your headset telling you to complete you mission. 
+With a hiss of hydraulics and pressure one side of the Airlock closes and the other opens."
 
-You remember a quote you once heard from a movie. [bold type] 'In space, no one can hear you scream. [roman type]'"
+The OuterSpace is a room. It is west of the Airlock. The description is "You float in space after leaving the shuttle and stare at the emptiness of space. You cannont hear anything except the crackle of your headset telling you to complete you mission by landing on the moon Below. 
 
-The Moon Surface is a room. It is below the OuterSpace. The description is "A large expanse of land in space with giagantic craters strew across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag.
+You remember a quote you once heard from a movie. [bold type]'In space, no one can hear you scream. [roman type]'"
+
+The Moon Surface is a room. It is below the OuterSpace. The description is "A large expanse of land in space with giagantic craters strewn across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag.
 
 You also see a hole that looks partially filled up. If you had a shovel you might dig it up."
 
-The Shovel is a thing. It is in the Cabinets. The description is "A spade used to dig up moon rocks."
+The craters are scenery in the Moon surface. The description is "Extremely large cavities in the moon caused by falling astroids."
+
+The moon rocks are a thing in the moon surface. It is undescribed. The description is "Dust and rocks from the moon. They look like they would be a good memento of your journey, or you could always sell them if you were tight on cash."
+
+The footprints are scenery in the Moon surface. The description is "Footprints left by previous expeditions. They never go away because the moon has no wind, rain, etc."
+
+The american flag is scenery in the Moon surface. The description is "The red, white, and blue symbol of the bane of your country's existence. The USA has always been beating Russia in everything, but now that is about to change. "
+
+The Shovel is a thing. It is in the Cabinets. It is undescribed. The description is "A spade used to dig up moon rocks."
 
 Understand "dig" as opening.
 
-Hole is a closed openable container
+Hole is a closed openable container.
+
 
 Instead of opening the hole:
 	if player has shovel:
