@@ -9,7 +9,8 @@ To say exit list:
 		let place be the room way from the location; 
 		if place is a room, say " [way]".
 		
-When play begins:change the right hand status line to "[score]".
+When play begins:
+change the right hand status line to "[score]".
 		
 Rule for deciding whether all includes something: it does not.
 
@@ -38,7 +39,9 @@ In the mirror, you also see a sickle and a hammar tattooed on your wrist."
 
 The Stall is an enterable scenery supporter in the Bathroom. Understand "stalls" as Stall. The description is "A tall white stall which holds a toilet and a roll of double ply toilet paper. Even though it is very clean, on the stall's door you see some graffiti."
 
-The Graffiti is scenery in the Bathroom. The description is "Along the wall someone has written, 'За Родину, все градом Сталина!' in thick black sharpie."
+The Graffiti is scenery in the Bathroom. The description is "Along the wall someone has written, 'За Родину, все градом Сталина!' in thick black sharpie. 
+
+You seem to be able to translate it as 'For the motherland, all hail Stalin!'"
 
 The Tiles are scenery supporter in the Bathroom. Understand "floor" as the tiles. The description is "Shiny blue mosaic tiles that line the floor in tiny rows. They are slippery because they look like they have been mopped recently.
 
@@ -52,11 +55,11 @@ These chemicals look like they could be used to combine with something later on.
 
 The wrench is a thing. It is in the closet. The description is "A tool used for building things."
 
-The Janitor is scenery in the Bathroom. The description is "The Janitor is on break and not here right now."
+The Janitor is scenery in the Bathroom. The description is "The Janitor is on break, and not here right now."
 
 The Training Room is a room. It is north of the partition. The description is "In the training room you see a giant spinning Centrifuge in the middle of the room. 
 
-Getting in the Centrifuge is a tequired of an astronaut, and might take a few times to do correctly.
+Getting in the Centrifuge is a required of an astronaut, and might take a few times to do correctly.
 
 The bathroom is to the West, and the storage room is to the South."
 
@@ -102,7 +105,22 @@ Greg is a man in the Mission Control. He is undescribed. The description is "Gre
 Instead of talking to Greg for the first time:
 	say "'Hi there, I'm Greg the Head Scientist. You must be the new astronaut. I'm very busy right now, but I must tell you what you need to do for your mission to the moon. First you must aquire you space suit.' [bold type] Greg opens his hand, and in it is the master key."
 	
-The Master Key is a thing in mission control. It is undescribed. It unlocks the cage. The description is "A Skeleton key that unlocks all basic doors."
+Instead of talking to Greg:
+	say "Come back to me when you have completed the missions I gave you."
+	
+Instead of talking to greg:
+	if player has space suit:
+		say "Now that you have your space suit and helmet you should go fix the refueling station for the rocket." 
+
+Instead of talking to greg:
+	if player has token:
+		say "You are now ready to go to the rocket. Here is the launch command. [bold type] Greg hands you the launch command [roman type]" 
+		
+After taking launch command, say "Now go to the loading zone and pull the launching lever."
+
+After taking the key, say "Now that you have the key you can go get your space suit. Come back to me when you have done that, and Refueled the rocket and I will tell you what to do next."
+	
+The Master Key is a thing in mission control. It is undescribed. It unlocks the cage. The description is "A key that unlocks the cage."
 
 [-----------]
 
@@ -138,14 +156,28 @@ Mounted on the Rocket is a Space Shuttle."
 
 The Refuelling Station is a scenery supporter in the Launch Pad. The description is "A crucial part of the launch pad where carbon rich rocket fuel flows from the refueling station to the Rocket. Right now it does not seem to be working, as the tube is not connected to the Rocket.
 
-On the station you spot a space where a tube could be connected, and a lever to start the flow of rocket fuel.
+On the station you spot a Valve where a fuel tube could be joined to get refueled.
 "
 
 The Space Shuttle is scenery in the Launch Pad. The description is "The space shuttle is a vehicle that holds the different crew members and detaches from the rocket after reaching the right altitude. It does not have enough propulsion to get into space by itself, therefore needs the rocket. It is also important in getting back to earth."
 
-The Fuel Tube is a thing in the Launch Pad. It is undescribed. It is fixed in place. The description is "A thick metal fuel tube which looks like it runs the length of the metal tower and then into the rocket. 
+The Fuel Tube is a thing in the Launch Pad. It is undescribed. Understand "tube" as fuel tube. It is fixed in place. The description is "A thick metal fuel tube which looks like it runs the length of the metal tower and then into the rocket. 
 
 It looks to be disconnected." 
+
+The Valve is a thing in the launch pad. It is undescribed. It is fixed in place. The description is "The opening of the refueling station that lets the rocket fuel out. The valve looks like something could be connected to it."
+
+Understand the command "connect [thing] to [something]" as something new.
+
+[Connecting to in is an action applying to two things. Understand "connect valve to fuel tube" as connecting to.  Understand "connect fuel tube to valve" as connecting to.]
+
+The token is a thing that is in the launch pad. It is undescribed.
+
+[Instead of connecting to:
+		say "You seem to have refueled the rocket.";
+		move token to player;]
+	
+	
 
 [Elevator]
 
@@ -164,17 +196,17 @@ To get back to the Launch Pad use the stairs to go back down. "
 
 The Launch mecanism is scenery in the loading zone. The description is "The action that starts the launch of the rocket"
 
-The Control Pane is a thing in the loading zone. It is fixed in place. The description is "On the control pane, you see the Docking Lever that controls the launch of the ship."
+The Control Pane is a thing in the loading zone. It is undescribed. It is fixed in place. The description is "On the control pane, you see the Launching Lever that controls the launch of the rocket and space shuttle."
 
-The Docking Lever is part of the control pane. The description is "A large lever that launches the rocket once you have fueled it up and have your space suit. To launch the rocket you need the Launch Command from Greg"
+The Launching Lever is part of the control pane. The description is "A large lever that launches the rocket once you have fueled it up and have your space suit. To launch the rocket you need the Launch Command from Greg"
 
 The launch command is a thing in mission control. It is undescribed. The description is "The code used at the Control Pane to launch the Rocket." 
 
 [Carry out] 
-Instead of pulling the docking lever:
-	If player has launch command, say "
 	
-	Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
+Instead of pulling Launching lever:
+	if player has launch command:
+		say "Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
 	
 	
 	[Bold type] 5.[roman type]
@@ -187,10 +219,12 @@ Instead of pulling the docking lever:
 	
 	You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a voice over the loudspeaker. '[Bold type]Detaching Rockets[roman type]' 
 	
-	The shuttle detaches from the rocket, and you have finally reached space
+	The shuttle detaches from the rocket, and you have finally reached space.
 	
 	";
-	now player is in Flight Deck;
+		now player is in Flight deck;
+	else:
+		say "You can't launch the rocket without the launch command!".
 	
 	[else, say "You can't launch the rocket without the launch command!"]
 
@@ -209,20 +243,22 @@ The Work Bench is a scenery supporter in the crew compartment. The description i
 
 This work bench looks like it can be used to assemble things once the required parts and tools are aquired."
 
-The Cabinets are a closed openable container in the crew compartment. It is undescribed. Understand "cabinet" as cabinets. [It is locked.] The description is "A thick metal cabinet that solidly rings when you tap on it. It looks like it could hold some things needed for you mission on the Moon."
+The Cabinets are a closed openable container in the crew compartment. It is undescribed. Understand "cabinet" as cabinets. The description is "A thick metal cabinet that solidly rings when you tap on it. It looks like it could hold some things needed for you mission on the Moon."
 
-After opening cabinets, say "In the cabinet, you see a flag, and vodka."
+After opening cabinets, say "In the cabinet, you see a flag, vodka, and a shovel."
 
-The Flag is a thing. It is in the Cabinet. The description is "A Red Flag with a yellow sickle and hammer. It is connected to a aluminum flagpole which looks like it can be deeply planted in the ground."
+The Flag is a thing. It is in the cabinets. It is undescribed. The description is "A Red Flag with a yellow sickle and hammer. It is connected to a aluminum flagpole which looks like it can be deeply planted in the ground."
 
-The Vodka is a thing. It is edible. It is in the Cabinet. The description is "A strong alcoholic bevarage that has a proof of 80"
+The Shovel is a thing. It is in the Cabinets. It is undescribed. The description is "A spade used to dig up moon rocks."
+
+The Vodka is a thing. It is edible. It is in the Cabinets. The description is "A strong alcoholic bevarage that has a proof of 80."
 	
 Instead of drinking the vodka:
 	Try eating the Vodka
 	
 After eating vodka, say "Your head feels woozy as you take a swig from the bottle. The high alcohol content might be useful for something later on you say to yourself, and save the rest of the bottle."
 
-After taking the flag, say "As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember the details of your mission. Go to the moon, claim it for the Motherland, and destroy all traces of the Americans.."
+After taking the flag, say "As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember some of  the details of your mission. Go to the moon, claim it for the Motherland, and destroy all traces of the Americans."
 
 The Beds is a enterable scenery supporter in the crew compartment. Understand "bed" as Beds. The description is "A bed mounted against the wall which looks sleepable but not comfy. It looks like whoever built the space shuttle spared no expense it making it livable."
 
@@ -261,7 +297,7 @@ You remember a quote you once heard from a movie. [bold type]'In space, no one c
 
 The Moon Surface is a room. It is below the OuterSpace. The description is "A large expanse of land in space with giagantic craters strewn across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag.
 
-You also see a hole that looks partially filled up. If you had a shovel you might dig it up."
+You also see a Hole in the ground that you might be able to open."
 
 The craters are scenery in the Moon surface. The description is "Extremely large cavities in the moon caused by falling astroids."
 
@@ -271,38 +307,40 @@ The footprints are scenery in the Moon surface. The description is "Footprints l
 
 The american flag is scenery in the Moon surface. The description is "The red, white, and blue symbol of the bane of your country's existence. The USA has always been beating Russia in everything, but now that is about to change. "
 
-The Shovel is a thing. It is in the Cabinets. It is undescribed. The description is "A spade used to dig up moon rocks."
-
-Understand "dig" as opening.
-
-Hole is a closed openable container.
-
+Hole is a closed openable container. It is undescribed. It is in the moon surface.
 
 Instead of opening the hole:
 	if player has shovel:
-		say "You dig a hole in the moon, which looks like your Flag can go in it";
+		say "You dig a hole in the moon with your shovel, which looks like the russian Flag can go in it.";
 		change hole to open;
 	else:
 		say "You can't dig out all the moon rocks with just your hands.".
 
 Understand the command "put [thing] in [something]" as something new.
 Putting it in is an action applying to two things.
-Understand "put [thing] in [something]" as putting it in
+Understand "put [thing] in [something]" as putting it in.
 
 [Putting is an action applying to two things. Understand "put [something] in [something]" as putting it in.]
 
 After putting flag in the hole:
-	say "you put the flag of the motherland in the hole and claim the Moon [bold type]FOR RUSSIA!!! [roman type]
+	say "
+	
+	You put the flag of the motherland in the hole and claim the Moon [bold type]FOR RUSSIA!!! [roman type]
 			
-	Now that your mission is complete you radio back to mission control. 'Thank you for your service to the Country. You will be remembered for your achievement. Thank you for your sacrafise.
+			
+	Now that your mission is complete you radio back to mission control. 'Thank you for your service to the Country. Your sacrafise will be remembered.' says mission control over the radio.
+			
 			
 	Remembered? I'm not dead yet.
 		
-	Suddenly, you have a hard time breating, your oxygen supply seems to be depleating. BOOM! the space shuttle explodes behind you.
 		
-	In your last moments, you finally remember the mission details. [bold type] To go to the moon and plant russia's flag. After completing  your mission, your life will then be terminated as your use has ended.
+	Suddenly, you have a hard time breathing, your oxygen supply seems to be depleating. BOOM! the space shuttle explodes behind you.
+		
+		
+	In your last moments, you finally remember the mission details. [bold type]
+	
+	To go to the moon and plant Russia's flag. After completing  your mission, your life will then be terminated as your use has ended… [roman type] 
 	
 	
-	";
-	End the game in victory.
+	"; End the game in victory.
 			
