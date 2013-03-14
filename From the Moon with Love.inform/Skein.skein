@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x6848c10" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18f6350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x70be400" />
-  <item nodeId="node-0x6848c10">
+  <activeNode nodeId="node-0x1b5a770" />
+  <item nodeId="node-0x18f6350">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -13,7 +13,7 @@ You wake up groggily from a hangover, and find yourself sitting on a toilet. All
 
 From the Moon with Love
 An Interactive Fiction by Matthew Shimura
-Release 1 / Serial number 130310 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130312 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Bathroom
 A spotless tiled restroom with many stalls and a large spanning mirror along the wall. It seems very peaceful here. In the back of the room you see a utility closet that looks to be used by the Janitor.
@@ -23,23 +23,22 @@ The exit to the Bathroom is to the East.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="336">NO</temporary>
+    <temporary score="878">NO</temporary>
     <children>
-      <child nodeId="node-0x6822020" />
-      <child nodeId="node-0x6baf420" />
-      <child nodeId="node-0x6822100" />
-      <child nodeId="node-0x6822170" />
-      <child nodeId="node-0x68222c0" />
-      <child nodeId="node-0x70ddfb0" />
+      <child nodeId="node-0x18e0a10" />
+      <child nodeId="node-0x6ede690" />
+      <child nodeId="node-0x68bb0f0" />
+      <child nodeId="node-0xb7b5a60" />
+      <child nodeId="node-0x68baad0" />
+      <child nodeId="node-0x68b9950" />
+      <child nodeId="node-0x18f65c0" />
     </children>
   </item>
-  <item nodeId="node-0x70ddfb0">
+  <item nodeId="node-0x18f65c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
-In the training room you see a giant spinning Centrifuge in the middle of the room.
-
-Getting in the Centrifuge is a required of an astronaut, and might take a few times to do correctly.
+In the training room you see a giant spinning Centrifuge in the middle of the room. Getting in the Centrifuge is a required of an astronaut to complete their training.
 
 The bathroom is to the West, and the storage room is to the South.
 
@@ -48,13 +47,73 @@ You can see a partition here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="336">YES</temporary>
+    <temporary score="878">YES</temporary>
     <children>
-      <child nodeId="node-0xb6870c0" />
-      <child nodeId="node-0x68ebd70" />
+      <child nodeId="node-0x68b7370" />
+      <child nodeId="node-0x18f6610" />
+      <child nodeId="node-0xb1c6550" />
     </children>
   </item>
-  <item nodeId="node-0x68ebd70">
+  <item nodeId="node-0xb1c6550">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+A spotless tiled restroom with many stalls and a large spanning mirror along the wall. It seems very peaceful here. In the back of the room you see a utility closet that looks to be used by the Janitor.
+
+The exit to the Bathroom is to the East.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ecaaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ecaaa0">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open the utility closet and reveal some chemicals and a wrench.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e01d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e01d60">
+    <command xml:space="preserve">take wrench</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xb107470" />
+    </children>
+  </item>
+  <item nodeId="node-0xb107470">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+In the training room you see a giant spinning Centrifuge in the middle of the room. Getting in the Centrifuge is a required of an astronaut to complete their training.
+
+The bathroom is to the West, and the storage room is to the South.
+
+You can see a partition here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x68c5c70" />
+      <child nodeId="node-0x14e08f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e08f30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the partition)
 It seems to be locked.
@@ -62,12 +121,12 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="336">YES</temporary>
+    <temporary score="705">YES</temporary>
     <children>
-      <child nodeId="node-0xb6b5c00" />
+      <child nodeId="node-0x14e82f40" />
     </children>
   </item>
-  <item nodeId="node-0xb6b5c00">
+  <item nodeId="node-0x14e82f40">
     <command xml:space="preserve">get in centrifuge</command>
     <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
 
@@ -76,12 +135,12 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="336">YES</temporary>
+    <temporary score="705">YES</temporary>
     <children>
-      <child nodeId="node-0xb6cdd70" />
+      <child nodeId="node-0x6e689a0" />
     </children>
   </item>
-  <item nodeId="node-0xb6cdd70">
+  <item nodeId="node-0x6e689a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the partition)
 
@@ -95,12 +154,1239 @@ You can see a partition and a Cage (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="336">YES</temporary>
+    <temporary score="705">YES</temporary>
     <children>
-      <child nodeId="node-0xb6cd850" />
+      <child nodeId="node-0x14e7f950" />
     </children>
   </item>
-  <item nodeId="node-0xb6cd850">
+  <item nodeId="node-0x14e7f950">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist, to the west is the Storage room, and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x685f0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x685f0f0">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">&quot;Hi there, I&apos;m Greg the Head Scientist. You must be the new astronaut. I&apos;m very busy right now, but I must tell you what you need to do for your mission to the moon. First you must aquire you space suit.&quot; Greg opens his hand, and in it is the  master key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ef23f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ef23f0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Now that you have the key you can go get your Space Suit and helmet. Come back to me when you have done that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e864e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e864e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Storage Room
+A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
+
+There look to be two exits one to the North, and one to the East.
+
+You can see a partition and a Cage (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x152bc450" />
+    </children>
+  </item>
+  <item nodeId="node-0x152bc450">
+    <command xml:space="preserve">unlock cage</command>
+    <result xml:space="preserve">What do you want to unlock the Cage with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ef6920" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ef6920">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the Cage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x15294980" />
+    </children>
+  </item>
+  <item nodeId="node-0x15294980">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">You open the Cage, revealing a Space Suit and a Space Helmet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x15208630" />
+    </children>
+  </item>
+  <item nodeId="node-0x15208630">
+    <command xml:space="preserve">take space suit</command>
+    <result xml:space="preserve">Now that you have your space suit you can return to Greg.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ede530" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ede530">
+    <command xml:space="preserve">take helmet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e192d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e192d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist, to the west is the Storage room, and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e82c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e82c50">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">&quot;Now that you have your space suit and helmet you should go fix the refueling station outside in the Launch Pad,&quot; says Greg.
+
+ Come back to me when you have completed the missions I gave you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x6eaeef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6eaeef0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a Refuelling Station that looks like it could be used to fuel up the rocket. Running up the side of the metal tower is a Fuel Tube.
+
+The Stairs going up the tower are to the West and Mission Control is to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x1525f7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1525f7d0">
+    <command xml:space="preserve">fix the valve</command>
+    <result xml:space="preserve">You fix the valve with your wrench. You feel a rumble under the ground and suddenly the rocket fuel starts to flow from the refueling station, to the fuel tube, and to the rocket.
+ You seem to have refueled the rocket and should now return to Greg.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bbc660" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bbc660">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a token
+  a Space Helmet
+  a Space Suit
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14eac0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14eac0d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist, to the west is the Storage room, and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14eac320" />
+    </children>
+  </item>
+  <item nodeId="node-0x14eac320">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">&quot;Now that you have your space suit and helmet you should go fix the refueling station outside in the Launch Pad,&quot; says Greg.
+&quot;You are now ready to go to the rocket. Here is the launch command.&quot; Greg hands you the launch command. 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ed6290" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ed6290">
+    <command xml:space="preserve">take launch command</command>
+    <result xml:space="preserve">&quot;Now go to the loading zone and Launch the Rocket.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xec6f710" />
+    </children>
+  </item>
+  <item nodeId="node-0xec6f710">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a Refuelling Station that looks like it could be used to fuel up the rocket. Running up the side of the metal tower is a Fuel Tube.
+
+The Stairs going up the tower are to the West and Mission Control is to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xec887d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec887d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist, to the west is the Storage room, and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e6dd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e6dd80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Storage Room
+A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
+
+There look to be two exits one to the North, and one to the East.
+
+You can see a partition and a Cage (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e9e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e9e30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist, to the west is the Storage room, and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7c3830" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7c3830">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a Refuelling Station that looks like it could be used to fuel up the rocket. Running up the side of the metal tower is a Fuel Tube.
+
+The Stairs going up the tower are to the West and Mission Control is to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ecff60" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ecff60">
+    <command xml:space="preserve">x tower</command>
+    <result xml:space="preserve">A tall metal structure next to the rocket, that helps to support it, as well as lets the Astronauts board the Space Shuttle when it is ready to launch.
+
+To get to the top you must use the stairs to the West.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xb112e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xb112e40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Stairs
+Large wrought iron stairs that look to be the only way Up to the loading zone. It looks like it will be good exercise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xec32e90" />
+    </children>
+  </item>
+  <item nodeId="node-0xec32e90">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Loading Zone
+ A platform at the top of the metal tower. This platform is hundreds of feet in the air, and below you can seen the space base. From up here everything looks so small and the people below look like ants.
+
+Across a large gap you see the rocket, but you cannont get to it yet.
+
+Up here at the Loading Zone you can see a Control Pane which looks like it controls all the rocket&apos;s fuel tubes as well as the Launch Mecanism.
+
+To get back to the Launch Pad use the stairs to go back down. 
+
+You can see an Air Lock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7ddc00" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7ddc00">
+    <command xml:space="preserve">x launch mecanism</command>
+    <result xml:space="preserve">The action that starts the launch of the rocket.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x16b15df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16b15df0">
+    <command xml:space="preserve">pull launch mecanism</command>
+    <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x68c8350" />
+    </children>
+  </item>
+  <item nodeId="node-0x68c8350">
+    <command xml:space="preserve">x control pane</command>
+    <result xml:space="preserve">On the control pane, you see the Launching Lever that controls the launch of the rocket and space shuttle.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ee6260" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ee6260">
+    <command xml:space="preserve">pull launching lever</command>
+    <result xml:space="preserve">Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
+
+  5.  4.  3.  2.  1.  We have liftoff…
+
+ You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a voice over the loudspeaker. &quot;Detaching Rockets&quot;
+ The shuttle detaches from the rocket, and you have finally reached space.
+ 
+Flight Deck
+At the head of the Space Shuttle is the flight deck where the entirety of the ship is controlled. You see three seats, one for the captain, one for the engineer, and one for you although you are the only one on the mission.
+
+In front of the seats is a thick Windsceen the protects you from outer space and allows you to see out the front so you can pilot the ship and use the Controls to the space shuttle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e85910" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e85910">
+    <command xml:space="preserve">x controls</command>
+    <result xml:space="preserve">The controls for landing on the moon and manipulating the space shuttle.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b464a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b464a0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Crew Compartment
+You step inside the Space Shuttle to the Crew Compartment the place where spend most of your time living and working on your voyage. You can see your way through the metal room with the fluroscent lights illuminating your way. You now stand on one of the walls of the space shuttle, as there is no gravity.
+
+In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabinets. Below you in the Space Shuttle is the Lower Deck, and Above you is the Flight Deck. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xeced7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeced7a0">
+    <command xml:space="preserve">open cabinets</command>
+    <result xml:space="preserve">In the cabinet, you see a flag, vodka, and a shovel.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e3b600" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e3b600">
+    <command xml:space="preserve">take flage, vodka</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x68c7a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x68c7a50">
+    <command xml:space="preserve">take flag and vodka</command>
+    <result xml:space="preserve">Flag: As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember some of  the details of your mission. Go to the moon, claim it for the Motherland, and destroy all traces of the Americans.
+Vodka: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xec9de90" />
+    </children>
+  </item>
+  <item nodeId="node-0xec9de90">
+    <command xml:space="preserve">take shovel</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2907f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2907f0">
+    <command xml:space="preserve">drink vodka</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xecc2b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xecc2b20">
+    <command xml:space="preserve">drink the vodka</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xecc6f00" />
+    </children>
+  </item>
+  <item nodeId="node-0xecc6f00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Shovel
+  a Flag
+  a launch command
+  a token
+  a Space Helmet (being worn)
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e0abc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e0abc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Airlock
+A room that seperates space from the inner space ship.
+
+With a hiss of hydraulics and pressure one side of the Airlock closes and the other opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xf264ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf264ba0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Shovel
+  a Flag
+  a launch command
+  a token
+  a Space Helmet (being worn)
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e36180" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e36180">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+OuterSpace
+You float in space after leaving the shuttle and stare at the emptiness of space. You cannont hear anything except the crackle of your headset telling you to complete you mission by landing on the moon Below.
+
+You remember a quote you once heard from a movie. &quot;In space, no one can hear you scream. &quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xf24c850" />
+    </children>
+  </item>
+  <item nodeId="node-0xf24c850">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Airlock
+A room that seperates space from the inner space ship.
+
+With a hiss of hydraulics and pressure one side of the Airlock closes and the other opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xec1fc40" />
+    </children>
+  </item>
+  <item nodeId="node-0xec1fc40">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Shovel
+  a Flag
+  a launch command
+  a token
+  a Space Helmet (being worn)
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xab1bef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xab1bef0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+OuterSpace
+You float in space after leaving the shuttle and stare at the emptiness of space. You cannont hear anything except the crackle of your headset telling you to complete you mission by landing on the moon Below.
+
+You remember a quote you once heard from a movie. &quot;In space, no one can hear you scream. &quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ea3f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ea3f20">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Moon Surface
+A large expanse of land in space with giagantic craters strewn across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag.
+
+You also see a Hole in the ground that you might be able to open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ed0120" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ed0120">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You dig a hole in the moon with your shovel, which looks like the russian Flag can go in it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="705">YES</temporary>
+    <children>
+      <child nodeId="node-0xec200c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec200c0">
+    <command xml:space="preserve">put flag in hole</command>
+    <result xml:space="preserve">(the Flag in Hole)
+
+ You put the flag of the motherland in the hole and claim the Moon FOR RUSSIA!!! 
+
+ Now that your mission is complete you radio back to mission control. &quot;Thank you for your service to the Country. Your sacrafise will be remembered,&quot; says mission control over the radio.
+
+ Remembered? I&apos;m not dead yet.
+
+ Suddenly, you have a hard time breathing, your oxygen supply seems to be depleating. BOOM! the space shuttle explodes behind you.
+
+ In your last moments, you finally remember the mission details. 
+
+ To go to the moon and plant Russia&apos;s flag. After completing your mission, your life will then be terminated as your use has ended… 
+
+ 
+
+
+    *** You have won ***
+
+
+In that game you scored 5 out of a possible 0, in 52 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="704">YES</temporary>
+  </item>
+  <item nodeId="node-0x68c5c70">
+    <command xml:space="preserve">get in centrifuge</command>
+    <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
+
+ Finally, the spinning stops, and you get out of the centrifuge.  You hear the click of the Partition unlocking.
+ 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e007a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e007a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the partition)
+
+Storage Room
+A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
+
+There look to be two exits one to the North, and one to the East.
+
+You can see a partition and a Cage (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x1896500" />
+    </children>
+  </item>
+  <item nodeId="node-0x1896500">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e01360" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e01360">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">&quot;Hi there, I&apos;m Greg the Head Scientist. You must be the new astronaut. I&apos;m very busy right now, but I must tell you what you need to do for your mission to the moon. First you must aquire you space suit.&quot; Greg opens his hand, and in it is the  master key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2c4790" />
+      <child nodeId="node-0x1beb6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1beb6f0">
+    <command xml:space="preserve">take the master key</command>
+    <result xml:space="preserve">Now that you have the key you can go get your Space Suit and helmet. Come back to me when you have done that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7901d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7901d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Storage Room
+A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
+
+There look to be two exits one to the North, and one to the East.
+
+You can see a partition and a Cage (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x6eac6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6eac6b0">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e01860" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e01860">
+    <command xml:space="preserve">unlock the cage with key</command>
+    <result xml:space="preserve">You unlock the Cage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x1beb550" />
+    </children>
+  </item>
+  <item nodeId="node-0x1beb550">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">You open the Cage, revealing a Space Suit and a Space Helmet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0xb10bfa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb10bfa0">
+    <command xml:space="preserve">take space suit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0xb117fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb117fa0">
+    <command xml:space="preserve">take space helmet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e02e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e02e10">
+    <command xml:space="preserve">wear space suit and space helmet</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bef370" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bef370">
+    <command xml:space="preserve">wear space suit</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e31ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e31ff0">
+    <command xml:space="preserve">wear space helmet</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e4e8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e4e8c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e28250" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e28250">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">Now that you have your space suit and helmet you should go fix the refueling station outside in the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e70b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e70b60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a Refuelling Station that looks like it could be used to fuel up the rocket. Running up the side of the metal tower is a Fuel Tube.
+
+The Stairs are to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e43700" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e43700">
+    <command xml:space="preserve">x refueling station</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14edfdd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14edfdd0">
+    <command xml:space="preserve">x refuelling station</command>
+    <result xml:space="preserve">A crucial part of the launch pad where carbon rich rocket fuel flows from the refueling station to the Rocket. Right now it does not seem to be working, as the Valve looks to be broken. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e198d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e198d0">
+    <command xml:space="preserve">fix the valve</command>
+    <result xml:space="preserve">You fix the valve with your wrench. You feel a rumble under the ground and suddenly the rocket fuel starts to flow from the refueling station, to the fuel tube, and to the rocket.
+ You seem to have refueled the rocket and should now return to Greg.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x68e15e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68e15e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
+
+At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ec3a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ec3a40">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">Now that you have your space suit and helmet you should go fix the refueling station outside in the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="315">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ed0b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ed0b50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a token
+  a Space Helmet (being worn)
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="314">YES</temporary>
+  </item>
+  <item nodeId="node-0xf2c4790">
+    <command xml:space="preserve">take master key</command>
+    <result xml:space="preserve">Now that you have the key you can go get your Space Suit and helmet. Come back to me when you have done that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e02fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e02fa0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2e9130" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2e9130">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc1060" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc1060">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Storage Room
+A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
+
+There look to be two exits one to the North, and one to the East.
+
+You can see a partition and a Cage (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e3ae90" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e3ae90">
+    <command xml:space="preserve">open cage with key</command>
+    <result xml:space="preserve">You unlock the Cage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xf242f80" />
+    </children>
+  </item>
+  <item nodeId="node-0xf242f80">
+    <command xml:space="preserve">x cage</command>
+    <result xml:space="preserve">A chainlink cage which inside of you see space suits and a space helmet.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e42600" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e42600">
+    <command xml:space="preserve">take space helmet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xf23d810" />
+    </children>
+  </item>
+  <item nodeId="node-0xf23d810">
+    <command xml:space="preserve">take space suit</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc9c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc9c10">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">You open the Cage, revealing a Space Suit and a Space Helmet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ea4dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ea4dc0">
+    <command xml:space="preserve">take space suit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2552e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2552e0">
+    <command xml:space="preserve">take space helmet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b05380" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b05380">
+    <command xml:space="preserve">x space suit</command>
+    <result xml:space="preserve">A garment worn to keep a human alive in the harsh enviroment of space from vacuum and extreme temperatures. When wearing the suit there is limited mobility.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xab82390" />
+    </children>
+  </item>
+  <item nodeId="node-0xab82390">
+    <command xml:space="preserve">x space helmet</command>
+    <result xml:space="preserve">A Helmet that lets you see out in space while still being able to breathe oxygen. The helmet also has a headset in it which allows you to hear what mission control has to tell you.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xb1144f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb1144f0">
+    <command xml:space="preserve">wear space suit</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e28320" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e28320">
+    <command xml:space="preserve">wear space helmet</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x68cfcb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68cfcb0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mission Control
@@ -111,12 +1397,448 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="336">YES</temporary>
+    <temporary score="221">YES</temporary>
     <children>
-      <child nodeId="node-0xfd9d650" />
+      <child nodeId="node-0x6e69f00" />
     </children>
   </item>
-  <item nodeId="node-0xfd9d650">
+  <item nodeId="node-0x6e69f00">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">Now that you have your space suit and helmet you should go fix the refueling station outside in the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14efbc10" />
+    </children>
+  </item>
+  <item nodeId="node-0x14efbc10">
+    <command xml:space="preserve">take off space suit</command>
+    <result xml:space="preserve">You take off the Space Suit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xab8b080" />
+    </children>
+  </item>
+  <item nodeId="node-0xab8b080">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">Now that you have your space suit and helmet you should go fix the refueling station outside in the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e99fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e99fb0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Mission Control
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e027a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e027a0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Mission Control
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc1760" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc1760">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Mission Control
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e3a7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e3a7b0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Storage Room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xf25dcb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf25dcb0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Space Helmet (being worn)
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e97a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e97a30">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Storage Room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xb106eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb106eb0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Storage Room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e9f250" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e9f250">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">&quot;Undo&quot; failed.  [Not all interpreters provide it.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e3f940" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e3f940">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Space Helmet
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7ad8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7ad8e0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Storage Room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a9340" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a9340">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Space Helmet
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x68ce700" />
+    </children>
+  </item>
+  <item nodeId="node-0x68ce700">
+    <command xml:space="preserve">undol</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e6db80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e6db80">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Storage Room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e27150" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e27150">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Storage Room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xb70dc10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb70dc10">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">&quot;Undo&quot; failed.  [Not all interpreters provide it.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e62780" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e62780">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Space Helmet
+  a Space Suit (being worn)
+  a Master Key
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xf278b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xf278b30">
+    <command xml:space="preserve">take off space wuit</command>
+    <result xml:space="preserve">Which do you mean, the Space Helmet or the Space Suit?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ea9430" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ea9430">
+    <command xml:space="preserve">space suit</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x6eb3270" />
+    </children>
+  </item>
+  <item nodeId="node-0x6eb3270">
+    <command xml:space="preserve">take off space suit</command>
+    <result xml:space="preserve">You take off the Space Suit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ed7340" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ed7340">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
+
+At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0x6865ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6865ac0">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">Now that you have your space suit and helmet you should go fix the refueling station outside in the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="220">YES</temporary>
+  </item>
+  <item nodeId="node-0x18f6610">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the partition)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f6680" />
+    </children>
+  </item>
+  <item nodeId="node-0x18f6680">
+    <command xml:space="preserve">get in centrifuge</command>
+    <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
+
+ Finally, the spinning stops, and you get out of the centrifuge.  You hear the click of the Partition unlocking.
+ 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f66f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18f66f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the partition)
+
+Storage Room
+A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
+
+There look to be two exits one to the North, and one to the East.
+
+You can see a partition and a Cage (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f6760" />
+    </children>
+  </item>
+  <item nodeId="node-0x18f6760">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
+
+At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f6980" />
+      <child nodeId="node-0x68cdf20" />
+    </children>
+  </item>
+  <item nodeId="node-0x68cdf20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a Refuelling Station that looks like it could be used to fill up the rocket. Connected to the rocket is a metal tower with a Elevator which looks like it could be used to get to the Loading zone. Running up the side of the metal tower is a Fuel Tube.
+
+The Stairs are to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x68cbc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x68cbc70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Stairs
+Large wrought iron stairs that look to be the only way Up to the loading zone. It looks like it will be good exercise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e3fd00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e3fd00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a Refuelling Station that looks like it could be used to fill up the rocket. Connected to the rocket is a metal tower with a Elevator which looks like it could be used to get to the Loading zone. Running up the side of the metal tower is a Fuel Tube.
+
+The Stairs are to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7af3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7af3b0">
+    <command xml:space="preserve">fix valve</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0x18f6980">
     <command xml:space="preserve">talk to greg</command>
     <result xml:space="preserve">&quot;Hi there, I&apos;m Greg the Head Scientist. You must be the new astronaut. I&apos;m very busy right now, but I must tell you what you need to do for your mission to the moon. First you must aquire you space suit.&quot;  Greg opens his hand, and in it is the master key.
 
@@ -125,10 +1847,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x70d6240" />
+      <child nodeId="node-0x18f69d0" />
     </children>
   </item>
-  <item nodeId="node-0x70d6240">
+  <item nodeId="node-0x18f69d0">
     <command xml:space="preserve">talk to greg</command>
     <result xml:space="preserve">Come back to me when you have your space suit AND have refueled the rocket
 &gt;</result>
@@ -136,10 +1858,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x70e32a0" />
+      <child nodeId="node-0x18f6a20" />
     </children>
   </item>
-  <item nodeId="node-0x70e32a0">
+  <item nodeId="node-0x18f6a20">
     <command xml:space="preserve">take the launch command</command>
     <result xml:space="preserve">Now go to the loading zone and pull the launching lever.
 
@@ -148,10 +1870,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x70e8c10" />
+      <child nodeId="node-0x18f6a90" />
     </children>
   </item>
-  <item nodeId="node-0x70e8c10">
+  <item nodeId="node-0x18f6a90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
@@ -166,10 +1888,10 @@ The Stairs are to the West.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb696a80" />
+      <child nodeId="node-0x68b6f90" />
     </children>
   </item>
-  <item nodeId="node-0xb696a80">
+  <item nodeId="node-0x68b6f90">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Stairs
@@ -180,10 +1902,10 @@ Large wrought iron stairs that look to be the only way Up to the loading zone. I
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb467220" />
+      <child nodeId="node-0x18f67d0" />
     </children>
   </item>
-  <item nodeId="node-0xb467220">
+  <item nodeId="node-0x18f67d0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Loading Zone
@@ -202,10 +1924,10 @@ You can see an Air Lock here.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x6b36ea0" />
+      <child nodeId="node-0x68b70a0" />
     </children>
   </item>
-  <item nodeId="node-0x6b36ea0">
+  <item nodeId="node-0x68b70a0">
     <command xml:space="preserve">pull launching lever</command>
     <result xml:space="preserve">Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
 
@@ -224,10 +1946,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x10453200" />
+      <child nodeId="node-0x68b70f0" />
     </children>
   </item>
-  <item nodeId="node-0x10453200">
+  <item nodeId="node-0x68b70f0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -240,10 +1962,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xfd50e90" />
+      <child nodeId="node-0x68b7140" />
     </children>
   </item>
-  <item nodeId="node-0xfd50e90">
+  <item nodeId="node-0x68b7140">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Flight Deck
@@ -256,10 +1978,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb5090e0" />
+      <child nodeId="node-0x68b71b0" />
     </children>
   </item>
-  <item nodeId="node-0xb5090e0">
+  <item nodeId="node-0x68b71b0">
     <command xml:space="preserve">x controls</command>
     <result xml:space="preserve">The controls for landing on the moon and manipulating the space shuttle
 
@@ -268,10 +1990,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb5f1dd0" />
+      <child nodeId="node-0x68b7220" />
     </children>
   </item>
-  <item nodeId="node-0xb5f1dd0">
+  <item nodeId="node-0x68b7220">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">(the launch command)
 The code used at the Control Pane to launch the Rocket.
@@ -281,10 +2003,10 @@ The code used at the Control Pane to launch the Rocket.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x1881070" />
+      <child nodeId="node-0x68b7290" />
     </children>
   </item>
-  <item nodeId="node-0x1881070">
+  <item nodeId="node-0x68b7290">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -297,10 +2019,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x70e9ca0" />
+      <child nodeId="node-0x68b7300" />
     </children>
   </item>
-  <item nodeId="node-0x70e9ca0">
+  <item nodeId="node-0x68b7300">
     <command xml:space="preserve">open cabinets</command>
     <result xml:space="preserve">In the cabinet, you see a flag, vodka, and a shovel.
 
@@ -309,10 +2031,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb527b70" />
+      <child nodeId="node-0x68b6fe0" />
     </children>
   </item>
-  <item nodeId="node-0xb527b70">
+  <item nodeId="node-0x68b6fe0">
     <command xml:space="preserve">x cabinets</command>
     <result xml:space="preserve">A thick metal cabinet that solidly rings when you tap on it. It looks like it could hold some things needed for you mission on the Moon.
 
@@ -323,10 +2045,10 @@ In the Cabinets is a Vodka.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x68db830" />
+      <child nodeId="node-0x68b7030" />
     </children>
   </item>
-  <item nodeId="node-0x68db830">
+  <item nodeId="node-0x68b7030">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember some of  the details of your mission. Go to the moon, claim it for the Motherland, and destroy all traces of the Americans.
 
@@ -335,10 +2057,10 @@ In the Cabinets is a Vodka.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xfdbc3c0" />
+      <child nodeId="node-0x68b74f0" />
     </children>
   </item>
-  <item nodeId="node-0xfdbc3c0">
+  <item nodeId="node-0x68b74f0">
     <command xml:space="preserve">take the vodka</command>
     <result xml:space="preserve">Taken.
 
@@ -347,10 +2069,10 @@ In the Cabinets is a Vodka.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x18f1090" />
+      <child nodeId="node-0x68b7560" />
     </children>
   </item>
-  <item nodeId="node-0x18f1090">
+  <item nodeId="node-0x68b7560">
     <command xml:space="preserve">take vodka</command>
     <result xml:space="preserve">You already have that.
 
@@ -359,10 +2081,10 @@ In the Cabinets is a Vodka.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xfd861f0" />
+      <child nodeId="node-0x68b75d0" />
     </children>
   </item>
-  <item nodeId="node-0xfd861f0">
+  <item nodeId="node-0x68b75d0">
     <command xml:space="preserve">take shovel</command>
     <result xml:space="preserve">Taken.
 
@@ -371,10 +2093,10 @@ In the Cabinets is a Vodka.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x7037680" />
+      <child nodeId="node-0x68b7640" />
     </children>
   </item>
-  <item nodeId="node-0x7037680">
+  <item nodeId="node-0x68b7640">
     <command xml:space="preserve">drink vodka</command>
     <result xml:space="preserve">Your head feels woozy as you take a swig from the bottle. The high alcohol content might be useful for something later on you say to yourself, and save the rest of the bottle.
 
@@ -383,10 +2105,10 @@ In the Cabinets is a Vodka.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb626cb0" />
+      <child nodeId="node-0x68b76b0" />
     </children>
   </item>
-  <item nodeId="node-0xb626cb0">
+  <item nodeId="node-0x68b76b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Airlock
@@ -399,10 +2121,10 @@ With a hiss of hydraulics and pressure one side of the Airlock closes and the ot
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x1b1ab70" />
+      <child nodeId="node-0x68b7720" />
     </children>
   </item>
-  <item nodeId="node-0x1b1ab70">
+  <item nodeId="node-0x68b7720">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 OuterSpace
@@ -415,10 +2137,10 @@ You remember a quote you once heard from a movie. &quot;In space, no one can hea
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb68e220" />
+      <child nodeId="node-0x68b7790" />
     </children>
   </item>
-  <item nodeId="node-0xb68e220">
+  <item nodeId="node-0x68b7790">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -427,10 +2149,10 @@ You remember a quote you once heard from a movie. &quot;In space, no one can hea
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb512b90" />
+      <child nodeId="node-0x68b7800" />
     </children>
   </item>
-  <item nodeId="node-0xb512b90">
+  <item nodeId="node-0x68b7800">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Moon Surface
@@ -443,10 +2165,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0xb6b5ed0" />
+      <child nodeId="node-0x68b7870" />
     </children>
   </item>
-  <item nodeId="node-0xb6b5ed0">
+  <item nodeId="node-0x68b7870">
     <command xml:space="preserve">dig hole</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -455,10 +2177,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x706e990" />
+      <child nodeId="node-0x68b78e0" />
     </children>
   </item>
-  <item nodeId="node-0x706e990">
+  <item nodeId="node-0x68b78e0">
     <command xml:space="preserve">open the hole</command>
     <result xml:space="preserve">You dig a hole in the moon with your shovel, which looks like the russian Flag can go in it.
 
@@ -467,10 +2189,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>NO</changed>
     <temporary score="336">YES</temporary>
     <children>
-      <child nodeId="node-0x70be400" />
+      <child nodeId="node-0x68b7950" />
     </children>
   </item>
-  <item nodeId="node-0x70be400">
+  <item nodeId="node-0x68b7950">
     <command xml:space="preserve">put flag in hole</command>
     <result xml:space="preserve">(the Flag in Hole)
 
@@ -483,7 +2205,7 @@ You also see a Hole in the ground that you might be able to open.
  Suddenly, you have a hard time breating, your oxygen supply seems to be depleating. BOOM! the space shuttle explodes behind you.
 
  In your last moments, you finally remember the mission details. 
- To go to the moon and plant russia&apos;s flag. After completing  your mission, your life will then be terminated as your use has ended… 
+ To go to the moon and plant russia&apos;s flag. After completing  your mission, your life will then be terminated as your use has ended… 潩戠捡⁫潴洠獩楳
 
  
 
@@ -500,21 +2222,21 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="335">YES</temporary>
   </item>
-  <item nodeId="node-0xb6870c0">
+  <item nodeId="node-0x68b7370">
     <command xml:space="preserve">get in centrifuge</command>
-    <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
+    <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomach feels like it is going to bust open. You get very queazy and feel like you almost want to barf.
 
  Finally, the spinning stops, and you get out of the centrifuge.  You hear the click of the Partition unlocking.
  
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="220">YES</temporary>
+    <temporary score="878">YES</temporary>
     <children>
-      <child nodeId="node-0x70c8eb0" />
+      <child nodeId="node-0x68b73e0" />
     </children>
   </item>
-  <item nodeId="node-0x70c8eb0">
+  <item nodeId="node-0x68b73e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the partition)
 
@@ -528,43 +2250,43 @@ You can see a partition and a Cage (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="220">YES</temporary>
+    <temporary score="878">YES</temporary>
     <children>
-      <child nodeId="node-0x70c7d20" />
+      <child nodeId="node-0x68b7450" />
     </children>
   </item>
-  <item nodeId="node-0x70c7d20">
+  <item nodeId="node-0x68b7450">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mission Control
-A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
+A gigantic room filled with rows of monitors, each one manned by an Engineer or Scientist. In the front of the room is a large screen constantly updating with news from all over the world and the status of the mission. In the corner you spot a Trash Can.
 
-At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+At the front of the room looks to be Greg the Head Scientist, to the west is the Storage room, and to the South is the Launch Pad.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="220">YES</temporary>
+    <temporary score="878">YES</temporary>
     <children>
-      <child nodeId="node-0x70382c0" />
-      <child nodeId="node-0x70a7390" />
-      <child nodeId="node-0xb6f8410" />
+      <child nodeId="node-0x68c0c80" />
+      <child nodeId="node-0x68b8d80" />
+      <child nodeId="node-0x68b7c00" />
     </children>
   </item>
-  <item nodeId="node-0xb6f8410">
+  <item nodeId="node-0x68b7c00">
     <command xml:space="preserve">take launch command</command>
-    <result xml:space="preserve">Now go to the loading zone and pull the docking lever.
+    <result xml:space="preserve">&quot;Now go to the loading zone and Launch the Rocket.&quot;
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="153">YES</temporary>
+    <temporary score="878">YES</temporary>
     <children>
-      <child nodeId="node-0x70ea810" />
-      <child nodeId="node-0xb69def0" />
+      <child nodeId="node-0x68b8840" />
+      <child nodeId="node-0x68b7c70" />
     </children>
   </item>
-  <item nodeId="node-0xb69def0">
+  <item nodeId="node-0x68b7c70">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -573,10 +2295,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xe979190" />
+      <child nodeId="node-0x68b7ce0" />
     </children>
   </item>
-  <item nodeId="node-0xe979190">
+  <item nodeId="node-0x68b7ce0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Storage Room
@@ -591,10 +2313,10 @@ You can see a partition and a Cage (closed) here.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb6a4450" />
+      <child nodeId="node-0x68b7d50" />
     </children>
   </item>
-  <item nodeId="node-0xb6a4450">
+  <item nodeId="node-0x68b7d50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -603,10 +2325,10 @@ You can see a partition and a Cage (closed) here.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70dfaa0" />
+      <child nodeId="node-0x68b7dc0" />
     </children>
   </item>
-  <item nodeId="node-0x70dfaa0">
+  <item nodeId="node-0x68b7dc0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -615,10 +2337,10 @@ You can see a partition and a Cage (closed) here.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x702fa90" />
+      <child nodeId="node-0x68b7e30" />
     </children>
   </item>
-  <item nodeId="node-0x702fa90">
+  <item nodeId="node-0x68b7e30">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mission Control
@@ -631,10 +2353,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70d9510" />
+      <child nodeId="node-0x68b7ea0" />
     </children>
   </item>
-  <item nodeId="node-0x70d9510">
+  <item nodeId="node-0x68b7ea0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
@@ -649,10 +2371,10 @@ The Stairs are to the West.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb695840" />
+      <child nodeId="node-0x68b7f10" />
     </children>
   </item>
-  <item nodeId="node-0xb695840">
+  <item nodeId="node-0x68b7f10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Stairs
@@ -663,10 +2385,10 @@ Large wrought iron stairs that look to be the only way Up to the loading zone. I
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70f80a0" />
+      <child nodeId="node-0x68b7f80" />
     </children>
   </item>
-  <item nodeId="node-0x70f80a0">
+  <item nodeId="node-0x68b7f80">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Loading Zone
@@ -685,10 +2407,10 @@ You can see an Air Lock here.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb688900" />
+      <child nodeId="node-0x68b7ff0" />
     </children>
   </item>
-  <item nodeId="node-0xb688900">
+  <item nodeId="node-0x68b7ff0">
     <command xml:space="preserve">pull docking lever</command>
     <result xml:space="preserve">Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
 
@@ -707,10 +2429,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb5dd8a0" />
+      <child nodeId="node-0x68b8060" />
     </children>
   </item>
-  <item nodeId="node-0xb5dd8a0">
+  <item nodeId="node-0x68b8060">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -719,10 +2441,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xe93ff40" />
+      <child nodeId="node-0x68b80d0" />
     </children>
   </item>
-  <item nodeId="node-0xe93ff40">
+  <item nodeId="node-0x68b80d0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -735,10 +2457,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb69f480" />
+      <child nodeId="node-0x68b8140" />
     </children>
   </item>
-  <item nodeId="node-0xb69f480">
+  <item nodeId="node-0x68b8140">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">In the cabinet, you see a flag, vodka, and a shovel.
 
@@ -747,10 +2469,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x707f760" />
+      <child nodeId="node-0x68b81b0" />
     </children>
   </item>
-  <item nodeId="node-0x707f760">
+  <item nodeId="node-0x68b81b0">
     <command xml:space="preserve">take shovel</command>
     <result xml:space="preserve">Taken.
 
@@ -759,10 +2481,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70ce710" />
+      <child nodeId="node-0x68b8220" />
     </children>
   </item>
-  <item nodeId="node-0x70ce710">
+  <item nodeId="node-0x68b8220">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -771,10 +2493,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70cd9c0" />
+      <child nodeId="node-0x68b8290" />
     </children>
   </item>
-  <item nodeId="node-0x70cd9c0">
+  <item nodeId="node-0x68b8290">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -783,10 +2505,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb6f3ab0" />
+      <child nodeId="node-0x68b8300" />
     </children>
   </item>
-  <item nodeId="node-0xb6f3ab0">
+  <item nodeId="node-0x68b8300">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Airlock
@@ -799,10 +2521,10 @@ With a hiss of hydraulics and pressure one side of the Airlock closes and the ot
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70db080" />
+      <child nodeId="node-0x68b79c0" />
     </children>
   </item>
-  <item nodeId="node-0x70db080">
+  <item nodeId="node-0x68b79c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 OuterSpace
@@ -815,10 +2537,10 @@ You remember a quote you once heard from a movie. &quot;In space, no one can hea
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb6b4990" />
+      <child nodeId="node-0x68b7a30" />
     </children>
   </item>
-  <item nodeId="node-0xb6b4990">
+  <item nodeId="node-0x68b7a30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -827,10 +2549,10 @@ You remember a quote you once heard from a movie. &quot;In space, no one can hea
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb6f3d00" />
+      <child nodeId="node-0x68b7aa0" />
     </children>
   </item>
-  <item nodeId="node-0xb6f3d00">
+  <item nodeId="node-0x68b7aa0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Moon Surface
@@ -843,10 +2565,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb684c40" />
+      <child nodeId="node-0x68b7b10" />
     </children>
   </item>
-  <item nodeId="node-0xb684c40">
+  <item nodeId="node-0x68b7b10">
     <command xml:space="preserve">dig up the hole</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -855,10 +2577,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x7037970" />
+      <child nodeId="node-0x68b7b80" />
     </children>
   </item>
-  <item nodeId="node-0x7037970">
+  <item nodeId="node-0x68b7b80">
     <command xml:space="preserve">dig the hole</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -867,10 +2589,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb6951d0" />
+      <child nodeId="node-0x68b8370" />
     </children>
   </item>
-  <item nodeId="node-0xb6951d0">
+  <item nodeId="node-0x68b8370">
     <command xml:space="preserve">dig hole</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -879,10 +2601,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70e9870" />
+      <child nodeId="node-0x68b83e0" />
     </children>
   </item>
-  <item nodeId="node-0x70e9870">
+  <item nodeId="node-0x68b83e0">
     <command xml:space="preserve">open hole</command>
     <result xml:space="preserve">You dig a hole in the moon, which looks like your Flag can go in it
 &gt;</result>
@@ -890,10 +2612,10 @@ You also see a Hole in the ground that you might be able to open.
     <changed>NO</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xfd46510" />
+      <child nodeId="node-0x68b8450" />
     </children>
   </item>
-  <item nodeId="node-0xfd46510">
+  <item nodeId="node-0x68b8450">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">
 OuterSpace
@@ -906,10 +2628,10 @@ You remember a quote you once heard from a movie. &quot;In space, no one can hea
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x709fe90" />
+      <child nodeId="node-0x68b84c0" />
     </children>
   </item>
-  <item nodeId="node-0x709fe90">
+  <item nodeId="node-0x68b84c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Airlock
@@ -922,10 +2644,10 @@ With a hiss of hydraulics and pressure one side of the Airlock closes and the ot
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x6bacde0" />
+      <child nodeId="node-0x68b8530" />
     </children>
   </item>
-  <item nodeId="node-0x6bacde0">
+  <item nodeId="node-0x68b8530">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -938,10 +2660,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb622550" />
+      <child nodeId="node-0x68b85a0" />
     </children>
   </item>
-  <item nodeId="node-0xb622550">
+  <item nodeId="node-0x68b85a0">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -950,10 +2672,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x70e0720" />
+      <child nodeId="node-0x68b8610" />
     </children>
   </item>
-  <item nodeId="node-0x70e0720">
+  <item nodeId="node-0x68b8610">
     <command xml:space="preserve">open cabinets</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -962,10 +2684,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xfd68110" />
+      <child nodeId="node-0x68b8680" />
     </children>
   </item>
-  <item nodeId="node-0xfd68110">
+  <item nodeId="node-0x68b8680">
     <command xml:space="preserve">close cabinet</command>
     <result xml:space="preserve">You close the Cabinets.
 
@@ -974,10 +2696,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xfd5b170" />
+      <child nodeId="node-0x68b86f0" />
     </children>
   </item>
-  <item nodeId="node-0xfd5b170">
+  <item nodeId="node-0x68b86f0">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">In the cabinet, you see a flag, vodka, and a shovel.
 
@@ -986,10 +2708,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb698c20" />
+      <child nodeId="node-0x68b8760" />
     </children>
   </item>
-  <item nodeId="node-0xb698c20">
+  <item nodeId="node-0x68b8760">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -998,10 +2720,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xb6a2dc0" />
+      <child nodeId="node-0x68b87d0" />
     </children>
   </item>
-  <item nodeId="node-0xb6a2dc0">
+  <item nodeId="node-0x68b87d0">
     <command xml:space="preserve">x flag</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1010,25 +2732,25 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="152">YES</temporary>
   </item>
-  <item nodeId="node-0x70ea810">
+  <item nodeId="node-0x68b8840">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
-As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+As you open the doors from mission control to go outside, you leave the air conditioned building behind. In the distance you see a giant Rocket of immense proportions. It&apos;s reflective surface glint beams of sunlight through the air.
 
-Around the launch pad you spot a Refuelling Station that looks like it could be used to fill up the rocket. Connected to the rocket is a metal tower with a Elevator which looks like it could be used to get to the Loading zone. Running up the side of the metal tower is a Fuel Tube.
+Around the launch pad you spot a Refueling Station that looks like it could be used to fuel up the rocket. Running up the side of the metal tower is a Fuel Tube.
 
-The Stairs are to the West.
+The Stairs going up the tower are to the West and Mission Control is to the North.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="64">YES</temporary>
+    <temporary score="878">YES</temporary>
     <children>
-      <child nodeId="node-0xb688700" />
+      <child nodeId="node-0x68b88b0" />
     </children>
   </item>
-  <item nodeId="node-0xb688700">
+  <item nodeId="node-0x68b88b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Stairs
@@ -1037,12 +2759,409 @@ Large wrought iron stairs that look to be the only way Up to the loading zone. I
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="64">YES</temporary>
+    <temporary score="878">YES</temporary>
     <children>
-      <child nodeId="node-0x70f6660" />
+      <child nodeId="node-0x68b8920" />
+      <child nodeId="node-0xec9a6b0" />
     </children>
   </item>
-  <item nodeId="node-0x70f6660">
+  <item nodeId="node-0xec9a6b0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Loading Zone
+ A platform at the top of the metal tower. This platform is hundreds of feet in the air, and below you can seen the space base. From up here everything looks so small and the people below look like ants.
+
+Across a large gap you see the rocket, but you cannot get to it yet.
+
+Up here at the Loading Zone you can see a Control Pane which looks like it controls all the rocket&apos;s fuel tubes as well as the Launch Mechanism.
+
+To get back to the Launch Pad use the stairs to go back down. 
+
+You can see an Air Lock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e36a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e36a70">
+    <command xml:space="preserve">pull launching lever</command>
+    <result xml:space="preserve">Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
+
+  5.  4.  3.  2.  1.  We have liftoff…
+
+ You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a voice over the loudspeaker. &quot;Detaching Rockets&quot;
+ The shuttle detaches from the rocket, and you have finally reached space.
+ 
+Flight Deck
+At the head of the Space Shuttle is the flight deck where the entirety of the ship is controlled. You see three seats, one for the captain, one for the engineer, and one for you although you are the only one on the mission.
+
+In front of the seats is a thick Windscreen the protects you from outer space and allows you to see out the front so you can pilot the ship and use the Controls to the space shuttle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec40ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec40ac0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Space Helmet (being worn)
+  a Space Suit (being worn)
+  a launch command
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec906d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec906d0">
+    <command xml:space="preserve">x launch command</command>
+    <result xml:space="preserve">The code used at the Control Pane to launch the Rocket.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e49e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e49e90">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Crew Compartment
+You step inside the Space Shuttle to the Crew Compartment the place where spend most of your time living and working on your voyage. You can see your way through the metal room with the fluorescent lights illuminating your way. You now stand on one of the walls of the space shuttle, as there is no gravity.
+
+In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabinets. Below you in the Space Shuttle is the Lower Deck, and Above you is the Flight Deck. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7bdee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7bdee0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Airlock
+A room that separates space from the inner space ship.
+
+With a hiss of hydraulics and pressure one side of the Airlock closes and the other opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x16bd3140" />
+    </children>
+  </item>
+  <item nodeId="node-0x16bd3140">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+OuterSpace
+You float in space after leaving the shuttle and stare at the emptiness of space. You cannot hear anything except the crackle of your headset telling you to complete you mission by landing on the moon Below.
+
+You remember a quote you once heard from a movie. &quot;In space, no one can hear you scream. &quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec54cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec54cf0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Airlock
+A room that separates space from the inner space ship.
+
+With a hiss of hydraulics and pressure one side of the Airlock closes and the other opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x16b5e300" />
+    </children>
+  </item>
+  <item nodeId="node-0x16b5e300">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Crew Compartment
+You step inside the Space Shuttle to the Crew Compartment the place where spend most of your time living and working on your voyage. You can see your way through the metal room with the fluorescent lights illuminating your way. You now stand on one of the walls of the space shuttle, as there is no gravity.
+
+In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabinets. Below you in the Space Shuttle is the Lower Deck, and Above you is the Flight Deck. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xecad030" />
+    </children>
+  </item>
+  <item nodeId="node-0xecad030">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">In the cabinet, you see a flag, vodka, and a shovel.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xeca2550" />
+    </children>
+  </item>
+  <item nodeId="node-0xeca2550">
+    <command xml:space="preserve">take flag</command>
+    <result xml:space="preserve">As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember some of  the details of your mission. Go to the moon, claim it for the Motherland, and destroy all traces of the Americans.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec69490" />
+    </children>
+  </item>
+  <item nodeId="node-0xec69490">
+    <command xml:space="preserve">take shovel</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec8e890" />
+    </children>
+  </item>
+  <item nodeId="node-0xec8e890">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Airlock
+A room that separates space from the inner space ship.
+
+With a hiss of hydraulics and pressure one side of the Airlock closes and the other opens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec57e60" />
+    </children>
+  </item>
+  <item nodeId="node-0xec57e60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+OuterSpace
+You float in space after leaving the shuttle and stare at the emptiness of space. You cannot hear anything except the crackle of your headset telling you to complete you mission by landing on the moon Below.
+
+You remember a quote you once heard from a movie. &quot;In space, no one can hear you scream. &quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec438f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec438f0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Moon Surface
+A large expanse of land in space with gigantic craters strewn across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag.
+
+You also see a Hole in the ground that you might be able to open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e6d9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e6d9f0">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You dig a hole in the moon with your shovel, which looks like the russian Flag can go in it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec781f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec781f0">
+    <command xml:space="preserve">x hole</command>
+    <result xml:space="preserve">Hole is empty.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e934c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e934c0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Moon Surface
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xb11a430" />
+    </children>
+  </item>
+  <item nodeId="node-0xb11a430">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Moon Surface
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec74b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xec74b70">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">OuterSpace
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e99b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e99b60">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Moon Surface
+A large expanse of land in space with gigantic craters strewn across the surface. You see the footprints of previous moon expeditions and across the way you see the American flag.
+
+You also see a Hole in the ground that you might be able to open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xb792ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb792ea0">
+    <command xml:space="preserve">x hole</command>
+    <result xml:space="preserve">You see nothing special about Hole.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e3d260" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e3d260">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You dig a hole in the moon with your shovel, which looks like the russian Flag can go in it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0xec226c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec226c0">
+    <command xml:space="preserve">put flag into hole</command>
+    <result xml:space="preserve">(the Flag into Hole)
+You put the Flag into Hole.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e2c430" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e2c430">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Moon Surface
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="878">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b5a770" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b5a770">
+    <command xml:space="preserve">put flag in hole</command>
+    <result xml:space="preserve">(the Flag in Hole)
+
+ You put the flag of the motherland in the hole and claim the Moon FOR RUSSIA!!! 
+
+ Now that your mission is complete you radio back to mission control. &quot;Thank you for your service to the Country. Your sacrifice will be remembered,&quot; says mission control over the radio.
+
+ Remembered? I&apos;m not dead yet.
+
+ Suddenly, you have a hard time breathing, your oxygen supply seems to be depleting. BOOM! the space shuttle explodes behind you.
+
+ In your last moments, you finally remember the mission details. 
+
+ To go to the moon and plant Russia&apos;s flag. After completing your mission, your life will then be terminated as your use has ended… 
+ 
+
+
+    *** You have won ***
+
+
+In that game you scored 1 out of a possible 53, in 25 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="877">YES</temporary>
+  </item>
+  <item nodeId="node-0x68b8920">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">
 Loading Zone
@@ -1061,10 +3180,10 @@ You can see an Air Lock here.
     <changed>NO</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0x70e7830" />
+      <child nodeId="node-0x68b8990" />
     </children>
   </item>
-  <item nodeId="node-0x70e7830">
+  <item nodeId="node-0x68b8990">
     <command xml:space="preserve">pull docking lever</command>
     <result xml:space="preserve">Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
 
@@ -1083,10 +3202,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0xb6f1fa0" />
+      <child nodeId="node-0x68b8a00" />
     </children>
   </item>
-  <item nodeId="node-0xb6f1fa0">
+  <item nodeId="node-0x68b8a00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1095,10 +3214,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0x1b1e420" />
+      <child nodeId="node-0x68b8a70" />
     </children>
   </item>
-  <item nodeId="node-0x1b1e420">
+  <item nodeId="node-0x68b8a70">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -1111,10 +3230,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0xb687b50" />
+      <child nodeId="node-0x68b8ae0" />
     </children>
   </item>
-  <item nodeId="node-0xb687b50">
+  <item nodeId="node-0x68b8ae0">
     <command xml:space="preserve">open cabinets</command>
     <result xml:space="preserve">In the cabinet, you see a flag, vodka, and a shovel.
 
@@ -1123,10 +3242,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0xb6cf220" />
+      <child nodeId="node-0x68b8b50" />
     </children>
   </item>
-  <item nodeId="node-0xb6cf220">
+  <item nodeId="node-0x68b8b50">
     <command xml:space="preserve">take shovel</command>
     <result xml:space="preserve">Taken.
 
@@ -1135,10 +3254,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0xb68d4b0" />
+      <child nodeId="node-0x68b8bc0" />
     </children>
   </item>
-  <item nodeId="node-0xb68d4b0">
+  <item nodeId="node-0x68b8bc0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Airlock
@@ -1151,10 +3270,10 @@ With a hiss of hydraulics and pressure one side of the Airlock closes and the ot
     <changed>YES</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0x70c9740" />
+      <child nodeId="node-0x68b8c30" />
     </children>
   </item>
-  <item nodeId="node-0x70c9740">
+  <item nodeId="node-0x68b8c30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 OuterSpace
@@ -1167,10 +3286,10 @@ You remember a quote you once heard from a movie. &quot;In space, no one can hea
     <changed>YES</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0xe988380" />
+      <child nodeId="node-0x68b8ca0" />
     </children>
   </item>
-  <item nodeId="node-0xe988380">
+  <item nodeId="node-0x68b8ca0">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Moon Surface
@@ -1183,10 +3302,10 @@ You also see a hole that looks partially filled up. If you had a shovel you migh
     <changed>YES</changed>
     <temporary score="64">YES</temporary>
     <children>
-      <child nodeId="node-0x6b5a010" />
+      <child nodeId="node-0x68b8d10" />
     </children>
   </item>
-  <item nodeId="node-0x6b5a010">
+  <item nodeId="node-0x68b8d10">
     <command xml:space="preserve">open hole</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1195,7 +3314,7 @@ You also see a hole that looks partially filled up. If you had a shovel you migh
     <changed>YES</changed>
     <temporary score="63">YES</temporary>
   </item>
-  <item nodeId="node-0x70a7390">
+  <item nodeId="node-0x68b8d80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
@@ -1210,11 +3329,11 @@ The Stairs are to the West.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb697150" />
-      <child nodeId="node-0x70eefb0" />
+      <child nodeId="node-0x68b9640" />
+      <child nodeId="node-0x68b8df0" />
     </children>
   </item>
-  <item nodeId="node-0x70eefb0">
+  <item nodeId="node-0x68b8df0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Mission Control
@@ -1227,10 +3346,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0x6bde770" />
+      <child nodeId="node-0x68b8e60" />
     </children>
   </item>
-  <item nodeId="node-0x6bde770">
+  <item nodeId="node-0x68b8e60">
     <command xml:space="preserve">get the launch command</command>
     <result xml:space="preserve">Now go to the loading zone and pull the launching lever.
 
@@ -1239,10 +3358,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0x104360d0" />
+      <child nodeId="node-0x68b8ed0" />
     </children>
   </item>
-  <item nodeId="node-0x104360d0">
+  <item nodeId="node-0x68b8ed0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1251,10 +3370,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb523960" />
+      <child nodeId="node-0x68b8f40" />
     </children>
   </item>
-  <item nodeId="node-0xb523960">
+  <item nodeId="node-0x68b8f40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Storage Room
@@ -1269,10 +3388,10 @@ You can see a partition and a Cage (closed) here.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb6defd0" />
+      <child nodeId="node-0x68b8fb0" />
     </children>
   </item>
-  <item nodeId="node-0xb6defd0">
+  <item nodeId="node-0x68b8fb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Training Room
@@ -1289,10 +3408,10 @@ You can see a partition here.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb68b0c0" />
+      <child nodeId="node-0x68b9020" />
     </children>
   </item>
-  <item nodeId="node-0xb68b0c0">
+  <item nodeId="node-0x68b9020">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1301,10 +3420,10 @@ You can see a partition here.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0x70701a0" />
+      <child nodeId="node-0x68b9090" />
     </children>
   </item>
-  <item nodeId="node-0x70701a0">
+  <item nodeId="node-0x68b9090">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1313,10 +3432,10 @@ You can see a partition here.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0x7072360" />
+      <child nodeId="node-0x68b9100" />
     </children>
   </item>
-  <item nodeId="node-0x7072360">
+  <item nodeId="node-0x68b9100">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Storage Room
@@ -1331,10 +3450,10 @@ You can see a partition and a Cage (closed) here.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xfd86f40" />
+      <child nodeId="node-0x68b9170" />
     </children>
   </item>
-  <item nodeId="node-0xfd86f40">
+  <item nodeId="node-0x68b9170">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mission Control
@@ -1347,10 +3466,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb51f3b0" />
+      <child nodeId="node-0x68b91e0" />
     </children>
   </item>
-  <item nodeId="node-0xb51f3b0">
+  <item nodeId="node-0x68b91e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
@@ -1365,10 +3484,10 @@ The Stairs are to the West.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0x70f8020" />
+      <child nodeId="node-0x68b9250" />
     </children>
   </item>
-  <item nodeId="node-0x70f8020">
+  <item nodeId="node-0x68b9250">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1377,10 +3496,10 @@ The Stairs are to the West.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb6d1b80" />
+      <child nodeId="node-0x68b92c0" />
     </children>
   </item>
-  <item nodeId="node-0xb6d1b80">
+  <item nodeId="node-0x68b92c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Stairs
@@ -1391,10 +3510,10 @@ Large wrought iron stairs that look to be the only way Up to the loading zone. I
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb689770" />
+      <child nodeId="node-0x68b9330" />
     </children>
   </item>
-  <item nodeId="node-0xb689770">
+  <item nodeId="node-0x68b9330">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Loading Zone
@@ -1413,10 +3532,10 @@ You can see an Air Lock here.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xfd772b0" />
+      <child nodeId="node-0x68b93a0" />
     </children>
   </item>
-  <item nodeId="node-0xfd772b0">
+  <item nodeId="node-0x68b93a0">
     <command xml:space="preserve">pull docking lever</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1425,10 +3544,10 @@ You can see an Air Lock here.
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0x70e8100" />
+      <child nodeId="node-0x68b9410" />
     </children>
   </item>
-  <item nodeId="node-0x70e8100">
+  <item nodeId="node-0x68b9410">
     <command xml:space="preserve">pull launching lever</command>
     <result xml:space="preserve">Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
 
@@ -1447,10 +3566,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xfd5af90" />
+      <child nodeId="node-0x68b9480" />
     </children>
   </item>
-  <item nodeId="node-0xfd5af90">
+  <item nodeId="node-0x68b9480">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -1463,10 +3582,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb521800" />
+      <child nodeId="node-0x68b94f0" />
     </children>
   </item>
-  <item nodeId="node-0xb521800">
+  <item nodeId="node-0x68b94f0">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">In the cabinet, you see a red flag, vodka, and a shovel.
 
@@ -1475,10 +3594,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xfd34a10" />
+      <child nodeId="node-0x68b9560" />
     </children>
   </item>
-  <item nodeId="node-0xfd34a10">
+  <item nodeId="node-0x68b9560">
     <command xml:space="preserve">take red flag</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1487,10 +3606,10 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>NO</changed>
     <temporary score="220">YES</temporary>
     <children>
-      <child nodeId="node-0xb69b910" />
+      <child nodeId="node-0x68b95d0" />
     </children>
   </item>
-  <item nodeId="node-0xb69b910">
+  <item nodeId="node-0x68b95d0">
     <command xml:space="preserve">take flag</command>
     <result xml:space="preserve">As you look at the flag you realize you are not an American Astronaut, but a Russian one. You suddenly remember the details of your mission. Go to the moon, claim it for the Motherland, and destroy all traces of the Americans..
 
@@ -1499,7 +3618,7 @@ In the Crew Compartment you spot some Beds, a Work Bench, and some storage Cabin
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
   </item>
-  <item nodeId="node-0xb697150">
+  <item nodeId="node-0x68b9640">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Stairs
@@ -1510,10 +3629,10 @@ Large wrought iron stairs that look to be the only way Up to the loading zone. I
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
     <children>
-      <child nodeId="node-0xb6877d0" />
+      <child nodeId="node-0x68b96b0" />
     </children>
   </item>
-  <item nodeId="node-0xb6877d0">
+  <item nodeId="node-0x68b96b0">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">
 Loading Zone
@@ -1532,10 +3651,10 @@ You can see an Air Lock here.
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
     <children>
-      <child nodeId="node-0x6bd8e90" />
+      <child nodeId="node-0x68b9720" />
     </children>
   </item>
-  <item nodeId="node-0x6bd8e90">
+  <item nodeId="node-0x68b9720">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">
 Stairs
@@ -1546,10 +3665,10 @@ Large wrought iron stairs that look to be the only way Up to the loading zone. I
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
     <children>
-      <child nodeId="node-0xb5db790" />
+      <child nodeId="node-0x68b9790" />
     </children>
   </item>
-  <item nodeId="node-0xb5db790">
+  <item nodeId="node-0x68b9790">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">
 Loading Zone
@@ -1568,10 +3687,10 @@ You can see an Air Lock here.
     <changed>YES</changed>
     <temporary score="35">YES</temporary>
     <children>
-      <child nodeId="node-0x702d700" />
+      <child nodeId="node-0x68b9800" />
     </children>
   </item>
-  <item nodeId="node-0x702d700">
+  <item nodeId="node-0x68b9800">
     <command xml:space="preserve">pull docking lever</command>
     <result xml:space="preserve">You can&apos;t launch the rocket without the launch command!
 
@@ -1580,293 +3699,16 @@ You can see an Air Lock here.
     <changed>YES</changed>
     <temporary score="34">YES</temporary>
   </item>
-  <item nodeId="node-0x70382c0">
+  <item nodeId="node-0x68c0c80">
     <command xml:space="preserve">talk to greg</command>
     <result xml:space="preserve">&quot;Hi there, I&apos;m Greg the Head Scientist. You must be the new astronaut. I&apos;m very busy right now, but I must tell you what you need to do for your mission to the moon. First you must aquire you space suit.&quot;  Greg opens his hand, and in it is the master key.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-    <children>
-      <child nodeId="node-0x70c3d50" />
-    </children>
+    <temporary score="225">YES</temporary>
   </item>
-  <item nodeId="node-0x70c3d50">
-    <command xml:space="preserve">talk to greg</command>
-    <result xml:space="preserve">Come back to me when you have your space suit AND refueled the rocket
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-  </item>
-  <item nodeId="node-0x68222c0">
-    <command xml:space="preserve">take wallet</command>
-    <result xml:space="preserve">Is this your wallet? Maybe you are an astronaut?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="79">YES</temporary>
-    <children>
-      <child nodeId="node-0x6822250" />
-    </children>
-  </item>
-  <item nodeId="node-0x6822250">
-    <command xml:space="preserve">smell odor</command>
-    <result xml:space="preserve">You smell nothing unexpected.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="79">YES</temporary>
-    <children>
-      <child nodeId="node-0x68221e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68221e0">
-    <command xml:space="preserve">smell chemicals</command>
-    <result xml:space="preserve">You smell nothing unexpected.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-  </item>
-  <item nodeId="node-0x6822170">
-    <command xml:space="preserve">open closet</command>
-    <result xml:space="preserve">That&apos;s already open.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="166">YES</temporary>
-  </item>
-  <item nodeId="node-0x6822100">
-    <command xml:space="preserve">x mirror</command>
-    <result xml:space="preserve">You look in the mirror and see yourself. You are a strapping lad of 20 something years. You have a long scar running down the side of you face from your right eyebrow to your chin. You also notice that you have a little hair stubble growing from your bald head.
-
-In the mirror you also see a sickle and a hammar tattooed on your wrist.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="52">YES</temporary>
-    <children>
-      <child nodeId="node-0x6822090" />
-    </children>
-  </item>
-  <item nodeId="node-0x6822090">
-    <command xml:space="preserve">x closet</command>
-    <result xml:space="preserve">A closets used for storing cleaning supplies and tools to keep the bathroom in working order
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="52">YES</temporary>
-  </item>
-  <item nodeId="node-0x6baf420">
-    <command xml:space="preserve">r</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0x70be7a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x70be7a0">
-    <command xml:space="preserve">r</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0xb686ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb686ea0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Training Room
-In the training room you see a giant spinning Centrifuge in the middle of the room.
-
-Getting in the Centrifuge is a required of an astronaut, and might take a few times to do correctly.
-
-The bathroom is to the West, and the storage room is to the South.
-
-You can see a partition here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0xb6dc150" />
-    </children>
-  </item>
-  <item nodeId="node-0xb6dc150">
-    <command xml:space="preserve">get in centrifuge</command>
-    <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
-
- Finally, the spinning stops, and you get out of the centrifuge.  You hear the click of the Partition unlocking.
- 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0xb6bc990" />
-    </children>
-  </item>
-  <item nodeId="node-0xb6bc990">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the partition)
-
-Storage Room
-A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
-
-There look to be two exits one to the North, and one to the East.
-
-You can see a partition and a Cage (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0x70d3720" />
-    </children>
-  </item>
-  <item nodeId="node-0x70d3720">
-    <command xml:space="preserve">r</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0xb6b6d00" />
-    </children>
-  </item>
-  <item nodeId="node-0xb6b6d00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Mission Control
-A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
-
-At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0x70ceae0" />
-    </children>
-  </item>
-  <item nodeId="node-0x70ceae0">
-    <command xml:space="preserve">take launch command</command>
-    <result xml:space="preserve">Now go to the loading zone and pull the docking lever.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0x70c8610" />
-    </children>
-  </item>
-  <item nodeId="node-0x70c8610">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Launch Pad
-As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
-
-Around the launch pad you spot a Refuelling Station that looks like it could be used to fill up the rocket. Connected to the rocket is a metal tower with a Elevator which looks like it could be used to get to the Loading zone. Running up the side of the metal tower is a Fuel Tube.
-
-The Stairs are to the West.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0x70afbe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x70afbe0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Stairs
-Large wrought iron stairs that look to be the only way Up to the loading zone. It looks like it will be good exercise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0xe935010" />
-    </children>
-  </item>
-  <item nodeId="node-0xe935010">
-    <command xml:space="preserve">up</command>
-    <result xml:space="preserve">
-Loading Zone
- A platform at the top of the metal tower. This platform is hundreds of feet in the air, and below you can seen the space base. From up here everything looks so small and the people below look like ants.
-
-Across a large gap you see the rocket, but you cannont get to it yet.
-
-Up here at the Loading Zone you can see a Control Pane which looks like it controls all the rocket&apos;s fuel tubes as well as the launch mecanism.
-
-To get back to the Launch Pad use the stairs to go back down. 
-
-You can see a Control Pane and an Air Lock here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0xb525a20" />
-    </children>
-  </item>
-  <item nodeId="node-0xb525a20">
-    <command xml:space="preserve">x control pane</command>
-    <result xml:space="preserve">On the control pane, you see the Docking Lever that controls the launch of the ship.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0xb688c80" />
-    </children>
-  </item>
-  <item nodeId="node-0xb688c80">
-    <command xml:space="preserve">pull docking lever</command>
-    <result xml:space="preserve">Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
-
-  5.  4.  3.  2.  1.  We have liftoff…
-
- You suddenly feel the thrusters engage and the rocket starts to blast off with an ear shattering roar. The rocket starts to move faster and faster, and it feels like the skin on your face is being pulled back because of the force. As the ship rattles you hear a voice over the loudspeaker. &quot;Detaching Rockets&quot;
- The shuttle detaches from the rocket, and you have finally reached space
-Flight Deck
-At the head of the Space Shuttle is the flight deck where the entirety of the ship is controlled. You see three seats, one for the captain, one for the engineer, and one for you.
-
-In front of the seats is a thick Windsceen the protects you from outer space and allows you to see out the front so you can see out of the ship, and the Controls to the space shuttles.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-  </item>
-  <item nodeId="node-0x6822020">
+  <item nodeId="node-0x68b9950">
     <command xml:space="preserve">open closed</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1875,10 +3717,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821fb0" />
+      <child nodeId="node-0x68b99c0" />
     </children>
   </item>
-  <item nodeId="node-0x6821fb0">
+  <item nodeId="node-0x68b99c0">
     <command xml:space="preserve">open closet</command>
     <result xml:space="preserve">You open the utility closet, revealing a chemicals and a wrench.
 
@@ -1887,10 +3729,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821f40" />
+      <child nodeId="node-0x68b9a30" />
     </children>
   </item>
-  <item nodeId="node-0x6821f40">
+  <item nodeId="node-0x68b9a30">
     <command xml:space="preserve">take chemicals</command>
     <result xml:space="preserve">Taken.
 
@@ -1899,10 +3741,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821ed0" />
+      <child nodeId="node-0x68b9aa0" />
     </children>
   </item>
-  <item nodeId="node-0x6821ed0">
+  <item nodeId="node-0x68b9aa0">
     <command xml:space="preserve">take wrench</command>
     <result xml:space="preserve">Taken.
 
@@ -1911,10 +3753,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821e60" />
+      <child nodeId="node-0x68b9b10" />
     </children>
   </item>
-  <item nodeId="node-0x6821e60">
+  <item nodeId="node-0x68b9b10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -1931,10 +3773,10 @@ You can see a partition here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821df0" />
+      <child nodeId="node-0x68b9b80" />
     </children>
   </item>
-  <item nodeId="node-0x6821df0">
+  <item nodeId="node-0x68b9b80">
     <command xml:space="preserve">get in centrifuge</command>
     <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
 
@@ -1945,10 +3787,10 @@ You can see a partition here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821d80" />
+      <child nodeId="node-0x68b9bf0" />
     </children>
   </item>
-  <item nodeId="node-0x6821d80">
+  <item nodeId="node-0x68b9bf0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the partition)
 
@@ -1964,10 +3806,10 @@ You can see a partition and a Cage (closed) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821d10" />
+      <child nodeId="node-0x68b9c60" />
     </children>
   </item>
-  <item nodeId="node-0x6821d10">
+  <item nodeId="node-0x68b9c60">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mission Control
@@ -1980,10 +3822,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821ca0" />
+      <child nodeId="node-0x68b9cd0" />
     </children>
   </item>
-  <item nodeId="node-0x6821ca0">
+  <item nodeId="node-0x68b9cd0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
@@ -1992,10 +3834,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821c30" />
+      <child nodeId="node-0x68b9d40" />
     </children>
   </item>
-  <item nodeId="node-0x6821c30">
+  <item nodeId="node-0x68b9d40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2004,10 +3846,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821bc0" />
+      <child nodeId="node-0x68b9db0" />
     </children>
   </item>
-  <item nodeId="node-0x6821bc0">
+  <item nodeId="node-0x68b9db0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Storage Room
@@ -2022,10 +3864,10 @@ You can see a partition and a Cage (closed) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821b50" />
+      <child nodeId="node-0x68b9e20" />
     </children>
   </item>
-  <item nodeId="node-0x6821b50">
+  <item nodeId="node-0x68b9e20">
     <command xml:space="preserve">unlock cage</command>
     <result xml:space="preserve">What do you want to unlock the Cage with?
 
@@ -2034,10 +3876,10 @@ You can see a partition and a Cage (closed) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821ae0" />
+      <child nodeId="node-0x68b9e90" />
     </children>
   </item>
-  <item nodeId="node-0x6821ae0">
+  <item nodeId="node-0x68b9e90">
     <command xml:space="preserve">key</command>
     <result xml:space="preserve">You unlock the Cage.
 
@@ -2046,10 +3888,10 @@ You can see a partition and a Cage (closed) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821a70" />
+      <child nodeId="node-0x68b9f00" />
     </children>
   </item>
-  <item nodeId="node-0x6821a70">
+  <item nodeId="node-0x68b9f00">
     <command xml:space="preserve">open cage</command>
     <result xml:space="preserve">You open the Cage, revealing a Space Suit and a Space Helmet.
 
@@ -2058,10 +3900,10 @@ You can see a partition and a Cage (closed) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821a00" />
+      <child nodeId="node-0x68b9f70" />
     </children>
   </item>
-  <item nodeId="node-0x6821a00">
+  <item nodeId="node-0x68b9f70">
     <command xml:space="preserve">take space suit</command>
     <result xml:space="preserve">Taken.
 
@@ -2070,10 +3912,10 @@ You can see a partition and a Cage (closed) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821990" />
+      <child nodeId="node-0x68b9fe0" />
     </children>
   </item>
-  <item nodeId="node-0x6821990">
+  <item nodeId="node-0x68b9fe0">
     <command xml:space="preserve">take space helmet</command>
     <result xml:space="preserve">Taken.
 
@@ -2082,10 +3924,10 @@ You can see a partition and a Cage (closed) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821920" />
+      <child nodeId="node-0x68ba050" />
     </children>
   </item>
-  <item nodeId="node-0x6821920">
+  <item nodeId="node-0x68ba050">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Mission Control
@@ -2098,10 +3940,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68218b0" />
+      <child nodeId="node-0x68ba0c0" />
     </children>
   </item>
-  <item nodeId="node-0x68218b0">
+  <item nodeId="node-0x68ba0c0">
     <command xml:space="preserve">take launch command</command>
     <result xml:space="preserve">Taken.
 
@@ -2110,10 +3952,10 @@ At the front of the room looks to be Greg the Head Scientist and to the South is
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821840" />
+      <child nodeId="node-0x68ba130" />
     </children>
   </item>
-  <item nodeId="node-0x6821840">
+  <item nodeId="node-0x68ba130">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Launch Pad
@@ -2128,10 +3970,10 @@ The Stairs are to the West.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68217d0" />
+      <child nodeId="node-0x68ba1a0" />
     </children>
   </item>
-  <item nodeId="node-0x68217d0">
+  <item nodeId="node-0x68ba1a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Stairs
@@ -2142,10 +3984,10 @@ Large wrought iron stairs that look to be the only way Up to the loading zone. I
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821760" />
+      <child nodeId="node-0x68ba210" />
     </children>
   </item>
-  <item nodeId="node-0x6821760">
+  <item nodeId="node-0x68ba210">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">
 Loading Zone
@@ -2164,10 +4006,10 @@ You can see a Control Pane and an Air Lock here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68216f0" />
+      <child nodeId="node-0x68ba280" />
     </children>
   </item>
-  <item nodeId="node-0x68216f0">
+  <item nodeId="node-0x68ba280">
     <command xml:space="preserve">x fuel tubes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2176,10 +4018,10 @@ You can see a Control Pane and an Air Lock here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821680" />
+      <child nodeId="node-0x68ba2f0" />
     </children>
   </item>
-  <item nodeId="node-0x6821680">
+  <item nodeId="node-0x68ba2f0">
     <command xml:space="preserve">x launch mecanism</command>
     <result xml:space="preserve">The action that starts the launch of the rocket
 
@@ -2188,10 +4030,10 @@ You can see a Control Pane and an Air Lock here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821610" />
+      <child nodeId="node-0x68ba360" />
     </children>
   </item>
-  <item nodeId="node-0x6821610">
+  <item nodeId="node-0x68ba360">
     <command xml:space="preserve">x control pane</command>
     <result xml:space="preserve">On the control pane, you see the Docking Lever that controls the launch of the ship.
 
@@ -2200,10 +4042,10 @@ You can see a Control Pane and an Air Lock here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68215a0" />
+      <child nodeId="node-0x68ba3d0" />
     </children>
   </item>
-  <item nodeId="node-0x68215a0">
+  <item nodeId="node-0x68ba3d0">
     <command xml:space="preserve">pull docking lever</command>
     <result xml:space="preserve">
  Now that the rocket is fueled and you are ready to go you are ready to launch. You put your space suit on and walk slowly to the rocket. The Airlock unlocks with a hiss of hydraulics and you step inside. You go up to the flight deck, and strap into your seat and get ready to launch.
@@ -2221,10 +4063,10 @@ In front of the seats is a thick Windsceen the protects you from outer space and
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821530" />
+      <child nodeId="node-0x68ba440" />
     </children>
   </item>
-  <item nodeId="node-0x6821530">
+  <item nodeId="node-0x68ba440">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -2239,10 +4081,10 @@ You can see a Cabinets (in which is a Shovel) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68214c0" />
+      <child nodeId="node-0x68ba4b0" />
     </children>
   </item>
-  <item nodeId="node-0x68214c0">
+  <item nodeId="node-0x68ba4b0">
     <command xml:space="preserve">x lights</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2251,10 +4093,10 @@ You can see a Cabinets (in which is a Shovel) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821450" />
+      <child nodeId="node-0x68ba520" />
     </children>
   </item>
-  <item nodeId="node-0x6821450">
+  <item nodeId="node-0x68ba520">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -2263,10 +4105,10 @@ You can see a Cabinets (in which is a Shovel) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68213e0" />
+      <child nodeId="node-0x68ba590" />
     </children>
   </item>
-  <item nodeId="node-0x68213e0">
+  <item nodeId="node-0x68ba590">
     <command xml:space="preserve">take shovel</command>
     <result xml:space="preserve">Taken.
 
@@ -2275,10 +4117,10 @@ You can see a Cabinets (in which is a Shovel) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821370" />
+      <child nodeId="node-0x68ba600" />
     </children>
   </item>
-  <item nodeId="node-0x6821370">
+  <item nodeId="node-0x68ba600">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2287,10 +4129,10 @@ You can see a Cabinets (in which is a Shovel) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821300" />
+      <child nodeId="node-0x68ba670" />
     </children>
   </item>
-  <item nodeId="node-0x6821300">
+  <item nodeId="node-0x68ba670">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Airlock
@@ -2301,10 +4143,10 @@ A room that seperate the outside from the inner space ship.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821290" />
+      <child nodeId="node-0x68ba6e0" />
     </children>
   </item>
-  <item nodeId="node-0x6821290">
+  <item nodeId="node-0x68ba6e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Crew Compartment
@@ -2319,10 +4161,10 @@ You can see a Cabinets (empty) here.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821220" />
+      <child nodeId="node-0x68ba750" />
     </children>
   </item>
-  <item nodeId="node-0x6821220">
+  <item nodeId="node-0x68ba750">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Airlock
@@ -2333,10 +4175,10 @@ A room that seperate the outside from the inner space ship.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68211b0" />
+      <child nodeId="node-0x68ba7c0" />
     </children>
   </item>
-  <item nodeId="node-0x68211b0">
+  <item nodeId="node-0x68ba7c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2345,10 +4187,10 @@ A room that seperate the outside from the inner space ship.
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821140" />
+      <child nodeId="node-0x68ba830" />
     </children>
   </item>
-  <item nodeId="node-0x6821140">
+  <item nodeId="node-0x68ba830">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 OuterSpace
@@ -2361,10 +4203,10 @@ You remember a quote you once heard from a movie.  &quot;In space, no one can he
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x68210d0" />
+      <child nodeId="node-0x68ba8a0" />
     </children>
   </item>
-  <item nodeId="node-0x68210d0">
+  <item nodeId="node-0x68ba8a0">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 Moon Surface
@@ -2377,10 +4219,10 @@ You also see a hole that looks partially filled up. If you had a shovel you migh
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6821060" />
+      <child nodeId="node-0x68ba910" />
     </children>
   </item>
-  <item nodeId="node-0x6821060">
+  <item nodeId="node-0x68ba910">
     <command xml:space="preserve">dig hole</command>
     <result xml:space="preserve">I only understood you as far as wanting to dig.
 
@@ -2389,10 +4231,10 @@ You also see a hole that looks partially filled up. If you had a shovel you migh
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6820ff0" />
+      <child nodeId="node-0x68ba980" />
     </children>
   </item>
-  <item nodeId="node-0x6820ff0">
+  <item nodeId="node-0x68ba980">
     <command xml:space="preserve">open hole</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2401,10 +4243,10 @@ You also see a hole that looks partially filled up. If you had a shovel you migh
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6820f80" />
+      <child nodeId="node-0x68ba9f0" />
     </children>
   </item>
-  <item nodeId="node-0x6820f80">
+  <item nodeId="node-0x68ba9f0">
     <command xml:space="preserve">dig the hole</command>
     <result xml:space="preserve">I only understood you as far as wanting to dig.
 
@@ -2413,10 +4255,10 @@ You also see a hole that looks partially filled up. If you had a shovel you migh
     <changed>YES</changed>
     <temporary score="207">YES</temporary>
     <children>
-      <child nodeId="node-0x6820f10" />
+      <child nodeId="node-0x68baa60" />
     </children>
   </item>
-  <item nodeId="node-0x6820f10">
+  <item nodeId="node-0x68baa60">
     <command xml:space="preserve">dig</command>
     <result xml:space="preserve">You must supply a noun.
 
@@ -2424,5 +4266,378 @@ You also see a hole that looks partially filled up. If you had a shovel you migh
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
+  </item>
+  <item nodeId="node-0x68baad0">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open the utility closet and reveal some chemicals and a wrench.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x18cb5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18cb5b0">
+    <command xml:space="preserve">take wrench</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xece98a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xece98a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+In the training room you see a giant spinning Centrifuge in the middle of the room. Getting in the Centrifuge is a required of an astronaut to complete their training.
+
+The bathroom is to the West, and the storage room is to the South.
+
+You can see a partition here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b46620" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b46620">
+    <command xml:space="preserve">get in centrifuge</command>
+    <result xml:space="preserve">You get into the centrifuge and it spins round and round until your stomache feels like it is going to bust open. You get very quezzy and feel like you almost want to barf.
+
+ Finally, the spinning stops, and you get out of the centrifuge.  You hear the click of the Partition unlocking.
+ 
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a6bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a6bb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the partition)
+
+Storage Room
+A small room filled with Space Suits and Space Helmets hung on the wall behind a Cage.
+
+There look to be two exits one to the North, and one to the East.
+
+You can see a partition and a Cage (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e66690" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e66690">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
+
+At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e808e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e808e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Launch Pad
+As you open the doors from mission control to go outside, you leave the airconditioned building behind. In the distance you see a giant Rocket of immense propotions. It&apos;s reflective surface glint beams of sunlight through the air.
+
+Around the launch pad you spot a Refuelling Station that looks like it could be used to fill up the rocket. Connected to the rocket is a metal tower with a Elevator which looks like it could be used to get to the Loading zone. Running up the side of the metal tower is a Fuel Tube.
+
+The Stairs are to the West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x188a300" />
+    </children>
+  </item>
+  <item nodeId="node-0x188a300">
+    <command xml:space="preserve">fix the valve</command>
+    <result xml:space="preserve">You fix the valve with your wrench. You feel a rumble under the ground and suddenly the rocket fuel starts to flow from the refueling station, to the fuel tube, and to the rocket.
+ You seem to have refueled the rocket and should now return to Greg.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xec6a420" />
+    </children>
+  </item>
+  <item nodeId="node-0xec6a420">
+    <command xml:space="preserve">fix valve</command>
+    <result xml:space="preserve">You fix the valve with your wrench. You feel a rumble under the ground and suddenly the rocket fuel starts to flow from the refueling station, to the fuel tube, and to the rocket.
+ You seem to have refueled the rocket and should now return to Greg.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xb703720" />
+    </children>
+  </item>
+  <item nodeId="node-0xb703720">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mission Control
+A gigantic room filled with rows of moniters, each one manned by an Engineer or Scientist. In the front of the room is a large sceen constantly updating with news from all over the world and the status of the mission.
+
+At the front of the room looks to be Greg the Head Scientist and to the South is the Launch Pad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e51550" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e51550">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">&quot;Hi there, I&apos;m Greg the Head Scientist. You must be the new astronaut. I&apos;m very busy right now, but I must tell you what you need to do for your mission to the moon. First you must aquire you space suit.&quot;  Greg opens his hand, and in it is the master key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b06b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b06b90">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">Come back to me when you have completed the missions I gave you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e17570" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e17570">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a token
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x14e2c770" />
+    </children>
+  </item>
+  <item nodeId="node-0x14e2c770">
+    <command xml:space="preserve">talk to greg</command>
+    <result xml:space="preserve">Come back to me when you have completed the missions I gave you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x14eccdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14eccdf0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a token
+  a wrench
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="105">YES</temporary>
+  </item>
+  <item nodeId="node-0xb7b5a60">
+    <command xml:space="preserve">fix</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x6821830" />
+    </children>
+  </item>
+  <item nodeId="node-0x6821830">
+    <command xml:space="preserve">fix valve</command>
+    <result xml:space="preserve">You need a tool to fix the valve
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2a6520" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2a6520">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open the utility closet, revealing a chemicals and a wrench.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+  </item>
+  <item nodeId="node-0x68bb0f0">
+    <command xml:space="preserve">take wallet</command>
+    <result xml:space="preserve">Is this your wallet? Maybe you are an astronaut?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="79">YES</temporary>
+    <children>
+      <child nodeId="node-0x68bb160" />
+    </children>
+  </item>
+  <item nodeId="node-0x68bb160">
+    <command xml:space="preserve">smell odor</command>
+    <result xml:space="preserve">You smell nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="79">YES</temporary>
+    <children>
+      <child nodeId="node-0x68bb1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68bb1d0">
+    <command xml:space="preserve">smell chemicals</command>
+    <result xml:space="preserve">You smell nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+  </item>
+  <item nodeId="node-0x6ede690">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x68efc90" />
+    </children>
+  </item>
+  <item nodeId="node-0x68efc90">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open the utility closet, revealing a chemicals and a wrench.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf42d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf42d0">
+    <command xml:space="preserve">take wrench</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b10990" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b10990">
+    <command xml:space="preserve">take chemicals</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xec65240" />
+    </children>
+  </item>
+  <item nodeId="node-0xec65240">
+    <command xml:space="preserve">take chemical</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e95ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e95ad0">
+    <command xml:space="preserve">x wallet</command>
+    <result xml:space="preserve">A wallet with 3,047 rubles in it. The wallet belongs to a young astronaut named, Victor Sasha Reznov.
+
+As you open the wallet, a crumpled paper falls to the floor.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x6e69970" />
+    </children>
+  </item>
+  <item nodeId="node-0x6e69970">
+    <command xml:space="preserve">x crumpled paper</command>
+    <result xml:space="preserve">On the crumpled paper you see &quot;Mission Details: To go to the moon and plant…&quot; You cannont read the rest.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+  </item>
+  <item nodeId="node-0x18e0a10">
+    <command xml:space="preserve">x utility closet</command>
+    <result xml:space="preserve">A closets used for storing cleaning chemicals and a wrench to keep the bathroom in working order.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
   </item>
 </Skein>
