@@ -78,9 +78,7 @@ In the mirror, you also see a sickle and a hammer tattooed on your wrist."
 
 The tattoo is scenery in the bathroom. The description is "A sickle and a hammer tattooed on your wrist."
 
-The Stall is an enterable scenery supporter in the Bathroom. Understand "stalls" as Stall. The description is "A tall white stall which holds a toilet and a roll of double ply Charmin ultra soft. Even though it is very clean in the stall, on the door you see some graffiti.
-
-In the Stall you also see a toilet."
+The Stall is an enterable scenery supporter in the Bathroom. Understand "stalls" as Stall. The description is "A tall white stall which holds a toilet and a roll of double ply Charmin ultra soft. Even though it is very clean in the stall, on the door you see some graffiti. In the Stall you also see a toilet."
 
 The Graffiti is scenery in the Bathroom. The description is "Along the wall someone has written, 'За Родину, все градом Сталина!' in thick black sharpie. 
 

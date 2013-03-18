@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1b48720" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1b48720" />
+  <activeNode nodeId="node-0x1bc8700" />
   <item nodeId="node-0x1b48720">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,8 +22,8 @@ The exit to the Bathroom is to the East.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="2">NO</temporary>
     <children>
       <child nodeId="node-0x6b98c10" />
       <child nodeId="node-0x6b97a90" />
@@ -32,7 +32,23 @@ The exit to the Bathroom is to the East.
       <child nodeId="node-0x6b95e90" />
       <child nodeId="node-0x1b48810" />
       <child nodeId="node-0x1b487a0" />
+      <child nodeId="node-0x1bc8700" />
     </children>
+  </item>
+  <item nodeId="node-0x1bc8700">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+In the training room you see a giant spinning Centrifuge in the middle of the room. Getting in the Centrifuge is a requirement of an astronaut to complete their training.
+
+The bathroom is to the West, and the storage room is to the South.
+
+You can see a hatch here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
   </item>
   <item nodeId="node-0x1b487a0">
     <command xml:space="preserve">xyzzy</command>
